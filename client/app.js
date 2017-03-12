@@ -127,7 +127,9 @@ makeTimeline()
 body.append(
   new Div('.outro', [
     P({
-      textContent: `This is all collected by hand, errors are expected.`
+      innerHTML: `
+        This is all collected by hand, some errors are expected. Feedback appreciated 
+        <a href="https://twitter.com/thunderfunking">@thunderfunking</a>.`
     })
   ])
 )
