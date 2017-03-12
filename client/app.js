@@ -18,7 +18,7 @@ const colorMap = {
 let articles = window.data.Articles
 articles = _.sortBy(articles, 'Published')
 articlesByHost = _.groupBy(_.sortBy(articles, 'Host'), 'Host')
-articlesByDay = _.groupBy(articles, article => moment(article.Published).format('MMM d YYYY'))
+articlesByDay = _.groupBy(articles, article => moment(article.Published).format('MMM D YYYY (ddd)'))
 
 const makeTimeline = () => {
   const table = new Table()
@@ -68,7 +68,7 @@ const makeTimeline = () => {
         P([
           Strong('Published'),
           Span({
-            textContent: moment(article.Published).format('MMM d YYYY HH:hh')
+            textContent: moment(article.Published).format('MMM D YYYY HH:hh')
           })
         ]),
         article.Publisher ? P([
@@ -117,8 +117,8 @@ body.append(
 body.append(
   new Div('.intro', [
     P({
-      textContent: `This a proof of concept for what I hope will be a tool that helps expose bias by contextualizing the news through aggregation.
-      For this test, I focused on the scandals surrounding Michael Flynn. More outlets will be added over time.`
+      textContent: `This a proof of concept for a tool that, hopefully, reveals bias by contextualizing the news through aggregation.
+      For this demo, I focused on the scandals surrounding Michael Flynn. More outlets will be added over time.`
     })
   ])
 )

@@ -126,7 +126,7 @@ td p, td a {
   margin-bottom: .6rem;
   padding-left: 1.3rem;
   text-indent: -1.3rem;
-  transition: .05s background-color;
+  transition: .15s background-color;
   font-size: 1rem;
 }
 
