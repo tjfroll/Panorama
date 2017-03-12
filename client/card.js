@@ -22,7 +22,7 @@ const makeCard = (article) => {
     href: article.Link,
     target: '_blank',
     style: {
-      'background-color': COLOR_MAP[article.Host]
+      'background-color': COLOR_MAP[article.Publisher || article.Host]
     },
     onmouseenter: (event) => window.tooltip.show(cardTooltip, event),
     onmouseleave: (event) => window.tooltip.hide()

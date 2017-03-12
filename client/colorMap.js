@@ -7,7 +7,10 @@ const COLOR_MAP = {
   'MSNBC': '#318f31',
   'CBS News': '#318f31',
   'Bloomberg': '#318f31',
-  'Time': '#318f31'
+  'Time': '#318f31',
+  'United Press International': '#888',
+  'Associated Press': '#888',
+  'Agence France Press': '#888'
 }
 
 const ACRONYM_MAP = {

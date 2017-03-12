@@ -837,6 +837,142 @@ const data = {
     {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/02/01/donald-trump-puts-iran-on-notice-for-destabilizing-actions-in-middle-east/",
+      "Published": "2017-02-01T14:32:21-07:00",
+      "Headline": "Donald Trump Puts Iran ‘On Notice’ for ‘Destabilizing Actions’ in Middle East",
+      "Authors": [
+        "Charlie Spiering"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/national-security/2017/02/15/flynn-resignation-nightmare-scenario-surveillance-state-run-amok/",
+      "Published": "2017-02-15T10:31:32-07:00",
+      "Headline": "HAYWARD: Flynn Resignation Is a Surveillance State Coup Nightmare",
+      "Authors": [
+        "John Hayward"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/02/14/fake-news-nancy-pelosi-elijah-cummings-fall-for-parody-mike-flynn-account/",
+      "Published": "2017-02-14T17:56:07-07:00",
+      "Headline": "FAKE NEWS: Nancy Pelosi, Elijah Cummings Fall for Parody Mike Flynn Account",
+      "Authors": [
+        "Adelle Nazarian"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/radio/2017/02/15/boykin-mike-flynn-set-brought-deliberate-effort-politicized-intelligence-community/",
+      "Published": "2017-02-15T13:21:07-07:00",
+      "Headline": "Jerry Boykin: Mike Flynn ‘Set Up’ and ‘Brought Down’ by Deliberate Effort from Politicized Intelligence Community",
+      "Authors": [
+        "John Hayward"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Publisher": "Agence France Press",
+      "Link": "http://www.breitbart.com/news/flynn-resigns-as-trumps-national-security-advisor-white-house/",
+      "Published": "2017-02-13T20:39:40Z",
+      "Headline": "Flynn resigns as Trump’s national security advisor: White House"
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/milo/2016/11/29/media-freaks-trump-national-security-advisers-praise-milo/",
+      "Published": "2016-11-29T18:54:14-07:00",
+      "Headline": "Media Freaks Out Over Trump National Security Adviser’s Praise For MILO",
+      "Authors": [
+        "Lucas Nolan"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/milo/2016/11/29/ny-mag-michael-flynn-milo-yiannopoulos/",
+      "Published": "2016-11-29T15:50:37-07:00",
+      "Headline": "Triggered: NY Mag Upset That Incoming National Security Adviser Flynn Is A ‘Big Fan’ Of MILO",
+      "Authors": [
+        "Lucas Nolan"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Publisher": "United Press International",
+      "Link": "http://www.breitbart.com/news/reports-michael-flynn-resigns-as-national-security-advisor-over-russia-ordeal/",
+      "Published": "2017-02-13T20:19:30Z",
+      "Headline": "Reports: Michael Flynn resigns as National Security Advisor over Russia ordeal"
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Publisher": "Agence France Press",
+      "Link": "http://www.breitbart.com/news/trump-security-advisor-flynn-pressured-over-russia-calls/",
+      "Published": "2017-02-13T11:59:32Z",
+      "Headline": "Trump security advisor Flynn pressured over Russia calls",
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/national-security/2017/01/25/fbi-nothing-illicit-flynns-calls-russian-ambassador/",
+      "Published": "2017-01-25T20:13:59-07:00",
+      "Headline": "FBI: Nothing Illicit in NSA Chief Mike Flynn’s Calls to Russian Ambassador",
+      "Authors": [
+        "John Hayward"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/rep-king-leaks-flynn-criminal-action/",
+      "Published": "2017-02-14T20:56:55-07:00",
+      "Headline": "Peter King: Leaks Against Flynn a ‘Criminal Action’",
+      "Authors": [
+        "Pam Key"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Publisher": "Agence France Press",
+      "Link": "http://www.breitbart.com/news/top-trump-aide-flynn-resigns-over-russia-contacts/",
+      "Published": "2017-02-13T21:19:33Z",
+      "Headline": "Top Trump aide Flynn resigns over Russia contacts"
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Publisher": "Agence France Press",
+      "Link": "http://www.breitbart.com/news/flynn-talked-sanctions-with-russians-before-trump-in-office-reports/",
+      "Published": "2017-02-10T12:29:30Z",
+      "Headline": "Flynn talked sanctions with Russians before Trump in office: reports"
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Publisher": "Associated Press",
+      "Link": "http://www.breitbart.com/news/text-of-michael-flynns-resignation-letter/",
+      "Published": "2017-02-14T10:49:26Z",
+      "Headline": "Text of Michael Flynn’s resignation letter",
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Publisher": "Associated Press",
+      "Link": "http://www.breitbart.com/news/the-latest-flynn-resigns-amid-russia-controversy/",
+      "Published": "2017-02-13T20:09:25Z",
+      "Headline": "The Latest: Flynn resigns amid Russia controversy"
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
       "Link": "http://www.breitbart.com/national-security/2017/02/17/fbi-no-charges-former-national-security-adviser-michael-flynn/",
       "Published": "2017-02-14T09:56:21-07:00",
       "Headline": "FBI: No Charges Against Former National Security Adviser Michael Flynn",
