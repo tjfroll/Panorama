@@ -1,4 +1,4 @@
-window.data = {
+const data = {
   "Articles": [
     {
       "Topic": "Michael Flynn",
