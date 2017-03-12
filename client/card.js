@@ -4,6 +4,10 @@ const makeCard = (article) => {
       Strong('Site'),
       Span(article.Host)
     ]),
+    P([
+      Strong('Headline'),
+      Span(article.Headline)
+    ]),
     article.Publisher ? P([
       Strong('Publisher'),
       Span(article.Publisher)
@@ -28,14 +32,16 @@ const makeCard = (article) => {
     onmouseleave: (event) => window.tooltip.hide()
   }, [
     Div('.headline', {
-      textContent: article.Headline
+      textContent: article.Headline,
+      display: not(isCompact)
     }),
     Div('.footer', [
       Span('.time', {
-        textContent: moment(article.Published).format('H:mm')
+        textContent: moment(article.Published).format('H:mm'),
+        display: not(isCompact)
       }),
       Span('.acronym', {
-        textContent: ACRONYM_MAP[article.Host]
+        textContent: ACRONYM_MAP[article.Host] || ACRONYM_MAP[article.Publisher]
       })
     ])
   ])

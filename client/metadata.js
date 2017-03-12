@@ -1321,5 +1321,45 @@ const data = {
         "Pam Key"
       ]
     },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Twitter",
+      "Publisher": "Donald J. Trump",
+      "Link": "https://twitter.com/realDonaldTrump/status/831853862281699331",
+      "Published": "2017-02-15T12:13:00.000Z",
+      "Headline": "The real scandal here is that classified information is illegally given out by \"intelligence\" like candy. Very un-American!",
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Twitter",
+      "Publisher": "Donald J. Trump",
+      "Link": "https://twitter.com/realDonaldTrump/status/831842652085686273",
+      "Published": "2017-02-15T11:28:00.000Z",
+      "Headline": "Thank you to Eli Lake of The Bloomberg View - \"The NSA & FBI...should not interfere in our politics...and is\" Very serious situation for USA",
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Twitter",
+      "Publisher": "Donald J. Trump",
+      "Link": "https://twitter.com/realDonaldTrump/status/831842652085686273",
+      "Published": "2017-02-15T11:19:00.000Z",
+      "Headline": "Information is being illegally given to the failing @nytimes & @washingtonpost by the intelligence community (NSA and FBI?).Just like Russia",
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Twitter",
+      "Publisher": "Donald J. Trump",
+      "Link": "https://twitter.com/realDonaldTrump/status/831837514226921472",
+      "Published": "2017-02-15T11:08:00.000Z",
+      "Headline": "This Russian connection non-sense is merely an attempt to cover-up the many mistakes made in Hillary Clinton's losing campaign.",
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Twitter",
+      "Publisher": "Donald J. Trump",
+      "Link": "https://twitter.com/realDonaldTrump/status/831510532318429184",
+      "Published": "2017-02-14T13:28:00.000Z",
+      "Headline": "The real story here is why are there so many illegal leaks coming out of Washington? Will these leaks be happening as I deal on N.Korea etc?",
+    },
   ]
 }

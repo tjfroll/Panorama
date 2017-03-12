@@ -1,5 +1,6 @@
-let { Variable, Table, THead, TBody, TR, TH, TD, P, A, Span, Strong, TFoot, H1, H2 } = alkali
+let { Variable, Button, not, Table, THead, TBody, TR, TH, TD, P, A, Span, Strong, TFoot, H1, H2 } = alkali
 const body = new Div('.main')
+const isCompact = new Variable(false)
 
 append(body, [
   new H1({
@@ -15,6 +16,8 @@ append(body, [
     })
   ])
 ])
+
+append(body, makeCompactToggle())
 
 makeTimeline()
 

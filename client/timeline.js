@@ -17,19 +17,20 @@ const makeTimeline = () => {
     const dayArticles = articlesByDay[day]
 
     // since we have a scrolling body, have to manually assign widths
-    const width = (200 + (Math.min(dayArticles.length - 1, 5) * 50)) + 'px'
+    const width = (200 + (Math.min(dayArticles.length - 1, 5) * 50))
 
     // head
     thr.append(
       new TH({
         style: {
-          'min-width': width
+          'min-width': isCompact.to( compact => compact ? '5rem' : width + 'px')
         }
       }, [
         Span('.time', {
-          textContent: day
+          content: isCompact.to( compact => compact ? moment(dayArticles[0].Published).format('M/D/YY') : moment(dayArticles[0].Published).format('MMM D YYYY'))
         }),
         Span('.day', {
+          display: not(isCompact),
           textContent: moment(dayArticles[0].Published).format('ddd')
         })
       ])
@@ -38,7 +39,7 @@ const makeTimeline = () => {
     // body
     const td = append(tr, new TD({
       style: {
-        'min-width': width
+        'min-width': isCompact.to( compact => compact ? '5rem' : width + 'px')
       }
     }))
     for (const article of dayArticles) {
@@ -49,11 +50,18 @@ const makeTimeline = () => {
     // foot
     tfr.append(
       new TH({
-        textContent: count + ' article' + (count > 1 ? 's' : ''),
         style: {
-          'min-width': width
+          'min-width': isCompact.to( compact => compact ? '5rem' : width + 'px')
           }
-      })
+      }, [
+        Span({
+          textContent: count
+        }),
+        Span({
+          textContent: ' article' + (count > 1 ? 's' : ''),
+          display: not(isCompact)
+        })
+      ])
     )
   }
   body.append(table)
