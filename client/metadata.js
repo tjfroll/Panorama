@@ -858,7 +858,7 @@ const data = {
       "Topic": "Michael Flynn",
       "Host": "National Review",
       "Link": "http://www.nationalreview.com/morning-jolt/444848/michael-flynn-national-security-adviser-sarah-silverman-gorsuch-vote",
-      "Published": "2017-02-13T12:36:19-05:000",
+      "Published": "2017-02-13T12:36:19-05:00",
       "Headline": "He’s In Like Flynn… For Now",
       "Authors": [
         "Jim Geraghty"
