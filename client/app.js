@@ -1,12 +1,12 @@
 console.log(window.data)
-let { Variable, Table, THead, TBody, TR, TH, TD, P, A, Span, Strong, TFoot } = alkali
+let { Variable, Table, THead, TBody, TR, TH, TD, P, A, Span, Strong, TFoot, H1, H2 } = alkali
 // let _ = lodash
 const body = new Div('.main')
 
 const colorMap = {
-  'Breitbart': 'red',
-  'Washington Post': 'blue',
-  'The New York Times': 'orange',
+  'Breitbart': '#f7913c',
+  'Washington Post': '#3398de',
+  'The New York Times': '#bc6ede',
   'Politico': 'green',
   'CNN': 'green',
   'MSNBC': 'green',
@@ -62,14 +62,14 @@ const makeTimeline = () => {
     for (const article of dayArticles) {
       const articleTooltip = new Div([
         P([
+          Strong('Site'),
+          Span(article.Host)
+        ]),
+        P([
           Strong('Published'),
           Span({
             textContent: moment(article.Published).format('MMM d YYYY HH:hh')
           })
-        ]),
-        P([
-          Strong('Host'),
-          Span(article.Host)
         ]),
         article.Publisher ? P([
           Strong('Publisher'),
@@ -105,9 +105,20 @@ const makeTimeline = () => {
 
 
 body.append(
+  new H1({
+    textContent: 'Panorama'
+  })
+)
+body.append(
+  new H2({
+    textContent: 'An experiment in news aggregation'
+  })
+)
+body.append(
   new Div('.intro', [
     P({
-      textContent: `A large collection of articles related to Michael Flynn, from many sources, sorted by time.`
+      textContent: `This a proof of concept for what I hope will be a tool that helps expose bias by contextualizing the news through aggregation.
+      For this test, I focused on the scandals surrounding Michael Flynn. More outlets will be added over time.`
     })
   ])
 )
@@ -116,8 +127,7 @@ makeTimeline()
 body.append(
   new Div('.outro', [
     P({
-      textContent: `This is all collected by hand, errors are expected. This a proof of concept for what I hope
-      will be a tool that helps expose bias by contextualizing the news through aggregation.`
+      textContent: `This is all collected by hand, errors are expected.`
     })
   ])
 )

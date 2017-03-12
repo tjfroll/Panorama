@@ -23,15 +23,41 @@ p strong {
   margin-right: 7px;
 }
 
-.intro {
+h1, h2 {
+  text-align: center;
+  font-family: Palatino Linotype, Georgia, Times New Roman, serif;
+  width: 100%;
+}
+h1 {
+  font-variant: small-caps;
+}
+h2 {
   margin-bottom: 7px;
+  font-style: italic;
+  font-size: 20px;
+  padding-bottom: 3px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #f7913c;
+}
+.intro {
+  text-align: center;
+  margin-bottom: 14px;
+  font-family: Palatino Linotype, Georgia, Times New Roman, serif;
 }
 .outro {
-  margin-top: 7px;
+  text-align: center;
+  margin-top: 14px;
+  font-family: Palatino Linotype, Georgia, Times New Roman, serif;
 }
 
 .intro p, .outro p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-size: 16px;
+  max-width: 700px;
 }
 
 .main {
@@ -72,7 +98,7 @@ tr {
 tbody {
   display: block;
   overflow: auto;
-  max-height: calc(100vh - 150px);
+  max-height: calc(100vh - 250px);
 
 }
 tbody tr {
@@ -93,11 +119,14 @@ td {
 td:not(:last-child) {
   border-right: 1px solid #CCC;
 }
+td:nth-child(even) {
+  background-color: rgba(0, 0, 0, .02);
+}
 td p, td a {
   display: block;
-  margin-bottom: 7px;
-  padding-left: 14px;
-  text-indent: -14px;
+  margin-bottom: 9px;
+  padding-left: 18px;
+  text-indent: -18px;
   transition: .05s text-shadow;
 }
 
