@@ -121,13 +121,18 @@ td:not(:last-child) {
 td:nth-child(even) {
   background-color: rgba(0, 0, 0, .02);
 }
-td p, td a {
+td p {
   display: block;
   margin-bottom: .6rem;
   padding-left: 1.3rem;
   text-indent: -1.3rem;
   transition: .15s background-color;
   font-size: 1rem;
+}
+
+.time {
+  font-size: .8rem;
+  opacity: .35;
 }
 
 a:hover {

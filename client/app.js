@@ -16,7 +16,9 @@ const colorMap = {
 }
 
 let articles = window.data.Articles
-articles = _.sortBy(articles, 'Published')
+articles.sort(function(a,b){
+  return new Date(a.Published) - new Date(b.Published);
+})
 articlesByHost = _.groupBy(_.sortBy(articles, 'Host'), 'Host')
 articlesByDay = _.groupBy(articles, article => moment(article.Published).format('MMM D YYYY (ddd)'))
 
@@ -65,12 +67,6 @@ const makeTimeline = () => {
           Strong('Site'),
           Span(article.Host)
         ]),
-        P([
-          Strong('Published'),
-          Span({
-            textContent: moment(article.Published).format('MMM D YYYY HH:hh')
-          })
-        ]),
         article.Publisher ? P([
           Strong('Publisher'),
           Span(article.Publisher)
@@ -86,16 +82,21 @@ const makeTimeline = () => {
       ])
 
       td.append(
-        new A({
-          textContent: article.Headline,
-          href: article.Link,
-          target: '_blank',
-          style: {
-            color: colorMap[article.Host]
-          },
-          onmouseenter: (event) => window.tooltip.show(articleTooltip, event),
-          onmouseleave: (event) => window.tooltip.hide()
-        })
+        new P([
+          Span('.time', {
+            textContent: moment(article.Published).format('H:mm') + ': '
+          }),
+          A({
+            textContent: article.Headline,
+            href: article.Link,
+            target: '_blank',
+            style: {
+              color: colorMap[article.Host]
+            },
+            onmouseenter: (event) => window.tooltip.show(articleTooltip, event),
+            onmouseleave: (event) => window.tooltip.hide()
+          })
+        ])
       )
     }
     tbody.append(tr)
