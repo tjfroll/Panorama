@@ -18,6 +18,7 @@ const ACRONYM_MAP = {
   'Breitbart': 'B',
   'Washington Post': 'WP',
   'The New York Times': 'NYT',
+  'National Review': 'NR',
   'Politico': 'P',
   'CNN': 'CNN',
   'MSNBC': 'MSNBC',
