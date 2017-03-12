@@ -10,7 +10,8 @@ const COLOR_MAP = {
   'Time': '#318f31',
   'United Press International': '#888',
   'Associated Press': '#888',
-  'Agence France Press': '#888'
+  'Agence France Press': '#888',
+  'National Review': 'rgb(143, 49, 90)'
 }
 
 const ACRONYM_MAP = {

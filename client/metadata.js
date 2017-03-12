@@ -856,6 +856,116 @@ const data = {
     },
     {
       "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/morning-jolt/444848/michael-flynn-national-security-adviser-sarah-silverman-gorsuch-vote",
+      "Published": "2017-02-13T12:36:19-05:000",
+      "Headline": "He’s In Like Flynn… For Now",
+      "Authors": [
+        "Jim Geraghty"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/445045/general-michael-flynn-national-security-adviser-fbi-investigation-phone-call-russian-ambassador",
+      "Published": "2017-02-18T04:00:00-05:00",
+      "Headline": "Why Was the FBI Investigating General Flynn?",
+      "Authors": [
+        "Andrew C. McCarthy"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/444934/michal-flynn-russia-release-tape-call-russian-ambassador",
+      "Published": "2017-02-15T14:58:47-05:00",
+      "Headline": "Make the Flynn Tape Public",
+      "Authors": [
+        "Andrew C. McCarthy"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/444998/michael-flynn-resignation-trump-administration-turmoil-over-leaks",
+      "Published": "2017-02-17T00:00:26-05:00",
+      "Headline": "How the Center Does Not Hold",
+      "Authors": [
+        "Jonah Goldberg"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/442350/mike-flynn-wrong-pick-national-security-adviser",
+      "Published": "2016-11-20T22:26:24-05:00",
+      "Headline": "Mike Flynn: Wrong Pick for National Security Adviser",
+      "Authors": [
+        "Tom Rogan"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/444981/trump-administration-russia-congress-mike-flynn-intelligence-community-leaks-new-york-times",
+      "Published": "2017-02-16T13:47:01-05:00",
+      "Headline": "Congress should investigate the allegations of unseemly ties between Russia and the Trump White House",
+      "Authors": [
+        "The Editors"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/445010/michael-flynn-donaldtrump-how-big-will-it-get",
+      "Published": "2017-02-17T00:00:00-05:00",
+      "Headline": "Air It Out",
+      "Authors": [
+        "Rich Lowry"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/442240/donald-trump-national-security-adviser-michael-flynn-top-choice",
+      "Published": "2016-11-16T18:17:25-05:00",
+      "Headline": "Michael Flynn Said to Be Trump’s Top Choice for National Security Adviser",
+      "Authors": [
+        "Eliana Johnson"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/444911/general-michael-flynns-firing-could-be-wake-call-trump",
+      "Published": "2017-02-14T19:04:41-05:00",
+      "Headline": "The Flynn Affair: Hoping for Addition by Subtraction",
+      "Authors": [
+        "Jonathan S. Tobin"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/article/445005/flynn-phone-call-coverup-searching-crime",
+      "Published": "2017-02-16T20:00:00-05:00",
+      "Headline": "The Cover-Up in Search of a Crime",
+      "Authors": [
+        "Charles Krauthammer"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "National Review",
+      "Link": "http://www.nationalreview.com/corner/444861/michael-flynns-russia-contacts-leaks-press",
+      "Published": "2017-02-13T17:42:18-05:00",
+      "Headline": "We Should Be Troubled by the Leaks about Michael Flynn’s Russia Conversations",
+      "Authors": [
+        "Bing West"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
       "Host": "Breitbart",
       "Link": "http://www.breitbart.com/big-government/2017/02/14/fake-news-nancy-pelosi-elijah-cummings-fall-for-parody-mike-flynn-account/",
       "Published": "2017-02-14T17:56:07-07:00",
