@@ -2,6 +2,241 @@ const data = {
   "Articles": [
     {
       "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/14/us/politics/russia-intelligence-communications-trump.html",
+      "Published": "2017-02-14T21:11:30-05:00",
+      "Headline": "Trump Campaign Aides Had Repeated Contacts With Russian Intelligence",
+      "Authors": [
+        "Michael S. Schmidt",
+        "Mark Mazzetti",
+        "Matt Apuzzo"
+      ],
+      "Contributors": [
+        "Adam Goldman",
+        "Matthew Rosenberg"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/arts/television/michael-flynn-valentines-colbert-conan.html",
+      "Published": "2017-02-15T05:00:20-05:00",
+      "Headline": "Pence and Trump Bear Brunt of Late-Night Jokes about Michael Flynn",
+      "Authors": [
+        "Giovanni Russonello"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/16/us/politics/robert-harward-national-security-adviser.html",
+      "Published": "2017-02-16T21:57:07-05:00",
+      "Headline": "Trump’s Pick to Replace Flynn Turns Down the Job",
+      "Authors": [
+        "Julie Hirschfeld Davis",
+        "Eric Schmitt"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/20/us/politics/mcmaster-national-security-adviser-trump.html",
+      "Published": "2017-02-20T15:05:36-05:00",
+      "Headline": "Trump Chooses H.R. McMaster as National Security Adviser",
+      "Authors": [
+        "Peter Baker",
+        "Michael R. Gordon"
+      ],
+      "Contributors": [
+        "Eric Schmitt",
+        "Jonathan Martin",
+        "Maggie Haberman",
+        "Kitty Bennett"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/opinion/on-the-road-to-another-watergate.html",
+      "Published": "2017-02-15T09:57:49-05:00",
+      "Headline": "On the Road to Another Watergate?",
+      "Authors": [
+        "Tim Weiner"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/opinion/drip-drip-drip.html",
+      "Published": "2017-02-15T19:16:17-05:00",
+      "Headline": "Drip, Drip, Drip",
+      "Authors": [
+        "Charles M. Blow"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/us/politics/pressure-on-senate-intelligence-committee-to-deliver-on-russia-inquiry.html",
+      "Published": "2017-02-15T19:16:17-05:00",
+      "Headline": "Conservative Talk Radio Stands by Trump Despite Turmoil",
+      "Authors": [
+        "Carl Hulse"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/17/opinion/bring-on-the-special-prosecutor.html",
+      "Published": "2017-02-17T03:21:20-05:00",
+      "Headline": "Bring On the Special Prosecutor",
+      "Authors": [
+        "The Editorial Board"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2016/11/18/us/politics/michael-flynn-national-security-adviser-donald-trump.html",
+      "Published": "2016-11-17T22:48:38-05:00",
+      "Headline": "Michael Flynn, Anti-Islamist Ex-General, Offered Security Post, Trump Aide Says",
+      "Authors": [
+        "Matthew Rosenberg and Maggie Haberman"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2016/12/03/us/politics/in-national-security-adviser-michael-flynn-experience-meets-a-prickly-past.html",
+      "Published": "2016-12-03T13:22:32-05:00",
+      "Headline": "In Trump’s Security Pick, Michael Flynn, ‘Sharp Elbows’ and No Dissent",
+      "Authors": [
+        "Matthew Rosenberg",
+        "Mark Mazzetti",
+        "Eric Schmitt"
+      ],
+      "Contributors": [
+        "Adam Goldman",
+        "Michael S. Schmidt"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2016/12/12/us/politics/donald-trump-cia-michael-flynn.html",
+      "Published": "2016-12-12T21:10:31-05:00",
+      "Headline": "Michael Flynn Is Harsh Judge of C.I.A.’s Role",
+      "Authors": [
+        "Matthew Rosenberg"
+      ],
+      "Contributors": [
+        "Maggie Haberman",
+        "Eric Schmitt"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/16/world/americas/deep-state-leaks-trump.html",
+      "Published": "2017-02-16T21:31:31-05:00",
+      "Headline": "As Leaks Multiply, Fears of a ‘Deep State’ in America",
+      "Authors": [
+        "Amanda Taub",
+        "Max Fisher"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/02/opinion/whats-wrong-with-michael-flynns-bluster-on-iran-plenty.html",
+      "Published": "2017-02-02T20:31:46-05:00",
+      "Headline": "What’s Wrong With Michael Flynn’s Bluster on Iran? Plenty",
+      "Authors": [
+        "Philip Gordon"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/us/conservative-talk-radio-trump.html",
+      "Published": "2017-02-15T05:00:18-05:00",
+      "Headline": "Pressure on Senate Intelligence Committee to Deliver on Russia Inquiry",
+      "Authors": [
+        "Sabrina Tavernise"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/us/politics/leaks-donald-trump.html",
+      "Published": "2017-02-15T20:50:18-05:00",
+      "Headline": "After Election, Trump’s Professed Love for Leaks Quickly Faded",
+      "Authors": [
+        "Michael D. Shear"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/us/politics/trump-intelligence-agencies-stephen-feinberg.html",
+      "Published": "2017-02-15T21:08:26-05:00",
+      "Headline": "White House Plans to Have Trump Ally Review Intelligence Agencies",
+      "Authors": [
+        "James Risen",
+        "Matthew Rosenberg"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/14/us/politics/mike-flynn-resign-pence-russia.html",
+      "Published": "2017-02-14T12:32:15-05:00",
+      "Headline": "The Michael Flynn Resignation: What We Know, What We Don’t",
+      "Authors": [
+        "Mark Landler"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/opinion/beyond-michael-flynn-calls-for-an-inquiry.html",
+      "Published": "2017-02-15T15:24:46-05:00",
+      "Headline": "Beyond Michael Flynn: Calls for an Inquiry",
+      "Authors": []
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/podcasts/the-daily/the-daily-michael-flynn-fall.html",
+      "Published": "2017-02-12T18:56:26-05:00",
+      "Headline": "‘The Daily’: The 47-Day Fall of Michael Flynn",
+      "Authors": [
+        "Michael Barbaro"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/12/us/politics/national-security-council-turmoil.html",
+      "Published": "2017-02-12T18:56:26-05:00",
+      "Headline": "Turmoil at the National Security Council, From the Top Down",
+      "Authors": [
+        "David E. Sanger",
+        "Eric Schmitt",
+        "Peter Baker"
+      ],
+      "Contributors": [
+        "Maggie Haberman",
+        "Matt Apuzzo",
+        "Adam Goldman",
+        "Alan Rappeport",
+        "Matthew Rosenberg",
+        "Charlie Savage",
+        "Glenn Thrush"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
       "Host": "Washington Post",
       "Link": "https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html",
       "Published": "2017-02-09T11:25-05:00",
@@ -27,6 +262,17 @@ const data = {
       "Authors": [
         "Greg Miller",
         "Philip Rucker"
+      ],
+      "Contributors": []
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/powerpost/wp/2017/02/12/does-the-white-house-stand-by-michael-flynn-thats-a-question-for-the-president/",
+      "Published": "2017-02-12T12:24-05:00",
+      "Headline": "Does the White House stand by Michael Flynn? ‘That’s a question for the president’",
+      "Authors": [
+        "Ed O'Keefe"
       ],
       "Contributors": []
     },
@@ -331,6 +577,96 @@ const data = {
     {
       "Topic": "Michael Flynn",
       "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/the-fix/wp/2017/02/13/michael-flynns-resignation-proves-some-washington-rules-still-apply-to-donald-trump/",
+      "Published": "2017-02-13T11:42-05:00",
+      "Headline": "Michael Flynn’s resignation proves some Washington rules still apply to Donald Trump",
+      "Authors": [
+        "Chris Cillizza"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/right-turn/wp/2017/01/23/flynn-is-in-quite-a-fix/",
+      "Published": "2017-01-23T12:45-05:00",
+      "Headline": "Flynn is in quite a fix",
+      "Authors": [
+        "Jennifer Rubin"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/right-turn/wp/2017/01/13/flynn-was-dealt-blow-after-blow-by-trumps-other-nominees/",
+      "Published": "2017-01-13T10:30-05:00",
+      "Headline": "Flynn was dealt blow after blow by Trump’s nominees",
+      "Authors": [
+        "Jennifer Rubin"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/right-turn/wp/2017/02/10/six-stunning-aspects-of-the-flynn-scandal/",
+      "Published": "2017-02-10T11:00-05:00",
+      "Headline": "Six stunning aspects of the Flynn scandal",
+      "Authors": [
+        "Jennifer Rubin"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/posteverything/wp/2016/10/18/what-the-heck-has-happened-to-michael-flynn/",
+      "Published": "2016-10-18T09:11-05:00",
+      "Headline": "What the heck has happened to Michael Flynn?",
+      "Authors": [
+        "Daniel W. Drezner"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/world/national-security/trumps-pick-for-national-security-adviser-brings-experience-and-controversy/2016/11/17/0962eb88-ad08-11e6-8b45-f8e493f06fcd_story.html/",
+      "Published": "2016-11-17T08:33-05:00",
+      "Headline": "Trump’s pick for national security adviser brings experience and controversy",
+      "Authors": [
+        "Greg Miller"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/politics/democrats-ask-pentagon-to-explain-russian-payment-to-flynn/2017/02/01/de5e5f0e-e816-11e6-80c2-30e57e57e05d_story.html",
+      "Published": "2017-02-13T11:42-05:00",
+      "Headline": "Democrats ask Pentagon to explain 2015 payment Flynn received from Russia",
+      "Authors": [
+        "Tom Hamburger"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/post-partisan/wp/2016/12/06/trump-must-dump-michael-flynn/",
+      "Published": "2017-02-01T03:29-05:00",
+      "Headline": "Trump must dump Michael Flynn",
+      "Authors": [
+        "Richard Cohen"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/opinions/michael-flynn-trump-is-like-the-chariot-driver-in-ben-hur/2017/02/07/3a037b08-ed82-11e6-b4ff-ac2cf509efe5_story.html",
+      "Published": "2017-02-07T07:07-05:00",
+      "Headline": "Michael Flynn: Trump is like the chariot driver in ‘Ben-Hur’",
+      "Authors": [
+        "David Ignatius"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
       "Link": "https://www.washingtonpost.com/news/the-fix/wp/2017/02/16/the-michael-flynn-situation-just-went-from-bad-to-worse-for-flynn-and-the-white-house/",
       "Published": "2017-02-17T08:43-05:00",
       "Headline": "Michael Flynn’s Russia problem just became an FBI problem",
@@ -346,6 +682,16 @@ const data = {
       "Headline": "The timeline of Michael Flynn’s resignation just looks bad for the Trump White House",
       "Authors": [
         "Aaron Blake"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/politics/wp/2017/02/14/the-fall-of-michael-flynn-a-timeline/",
+      "Published": "2017-02-14T10:02-05:00",
+      "Headline": "The fall of Michael Flynn: A timeline",
+      "Authors": [
+        "Philip Bump"
       ]
     },
     {
@@ -376,6 +722,41 @@ const data = {
       "Headline": "The Hill publishes editor’s note on Michael Flynn op-ed regarding Turkey",
       "Authors": [
         "Erik Wemple"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/politics/as-flynn-falls-under-growing-pressure-over-russia-contacts-trump-remains-silent/2017/02/12/2b58f31e-f15e-11e6-b9c9-e83fce42fb61_story.html",
+      "Published": "2017-02-12T08:11-05:00",
+      "Headline": "As Flynn falls under growing pressure over Russia contacts, Trump remains silent",
+      "Authors": [
+        "Philip Rucker",
+        "Adam Entous",
+        "Ed O'Keefe"
+      ],
+      "Contributors": [
+        "Greg Miller"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/post-partisan/wp/2017/02/11/when-it-comes-to-his-contacts-with-russia-michael-flynn-has-bigger-problems-than-the-logan-act/",
+      "Published": "2017-02-11T03:35-05:00",
+      "Headline": "When it comes to his contacts with Russia, Michael Flynn has bigger problems than the Logan Act",
+      "Authors": [
+        "David Ignatius"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/compost/wp/2017/02/14/michael-flynn-is-gone-and-everything-is-fine-just-fine-great/",
+      "Published": "2017-02-14T08:07-05:00",
+      "Headline": "Michael Flynn is gone and everything is fine, just fine, great",
+      "Authors": [
+        "Alexandra Petri"
       ]
     },
     {
@@ -446,8 +827,18 @@ const data = {
     {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/nyts-friedman-flynn-resignation-shows-russia-hacking-was-on-scale-with-911-pearl-harbor/",
+      "Published": "2017-02-15T10:16:42-08:00",
+      "Headline": "NYT’s Friedman: Flynn Resignation Shows Russia Hacking Was On Scale With 9/11, Pearl Harbor",
+      "Authors": [
+        "Pam Key"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
       "Link": "http://www.breitbart.com/national-security/2017/02/17/fbi-no-charges-former-national-security-adviser-michael-flynn/",
-      "Published": "2017-02-17T21:06:27-08:00",
+      "Published": "2017-02-14T09:56:21-07:00",
       "Headline": "FBI: No Charges Against Former National Security Adviser Michael Flynn",
       "Authors": [
         "John Hayward"

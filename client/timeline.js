@@ -45,10 +45,11 @@ const makeTimeline = () => {
       td.append(makeCard(article))
     }
 
+    const count = dayArticles.length
     // foot
     tfr.append(
       new TH({
-        textContent: dayArticles.length + ' article(s)',
+        textContent: count + ' article' + (count > 1 ? 's' : ''),
         style: {
           'min-width': width
           }
