@@ -103,6 +103,23 @@ const makeTimeline = () => {
   body.append(table)
 }
 
+
+body.append(
+  new Div('.intro', [
+    P({
+      textContent: `A large collection of articles related to Michael Flynn, from many sources, sorted by time.`
+    })
+  ])
+)
 makeTimeline()
+
+body.append(
+  new Div('.outro', [
+    P({
+      textContent: `This is all collected by hand, errors are expected. This a proof of concept for what I hope
+      will be a tool that helps expose bias by contextualizing the news through aggregation.`
+    })
+  ])
+)
 
 document.body.appendChild(body)

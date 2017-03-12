@@ -23,6 +23,17 @@ p strong {
   margin-right: 7px;
 }
 
+.intro {
+  margin-bottom: 7px;
+}
+.outro {
+  margin-top: 7px;
+}
+
+.intro p, .outro p {
+  font-size: 16px;
+}
+
 .main {
   padding: 14px;
 }
@@ -61,7 +72,7 @@ tr {
 tbody {
   display: block;
   overflow: auto;
-  max-height: 80vh;
+  max-height: calc(100vh - 150px);
 
 }
 tbody tr {
