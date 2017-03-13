@@ -64,5 +64,5 @@ const makeTimeline = () => {
       ])
     )
   }
-  body.append(table)
+  return table
 }

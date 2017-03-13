@@ -13,7 +13,8 @@ const COLOR_MAP = {
   'Agence France Press': '#888',
   'National Review': 'rgb(143, 49, 90)',
   'Twitter': '#1da1f2',
-  'Donald J. Trump': '#1da1f2'
+  'Donald J. Trump': '#1da1f2',
+  'InfoWars': 'darkblue'
 }
 
 const ACRONYM_MAP = {
@@ -27,5 +28,6 @@ const ACRONYM_MAP = {
   'CBS News': 'CBS',
   'Bloomberg': 'Bl',
   'Time': 'T',
-  'Donald J. Trump': 'DJT'
+  'Donald J. Trump': 'DJT',
+  'InfoWars': 'IW'
 }

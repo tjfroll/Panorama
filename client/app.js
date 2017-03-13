@@ -19,7 +19,7 @@ append(body, [
 
 append(body, makeCompactToggle())
 
-makeTimeline()
+append(body, new Div('.timeline', [makeTimeline()]))
 
 body.append(
   new Div('.outro', [

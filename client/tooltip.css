@@ -1,5 +1,7 @@
 #tooltip {
-  position: absolute;
+  position: fixed;
+  top: 1rem;
+  right: 3rem;
   width: auto;
   min-width: 15rem;
   max-width: 30rem;

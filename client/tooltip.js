@@ -19,7 +19,8 @@ tooltip.show = (content, event) => {
     duration: 80,
     queue: false
   })
-  updatePosition(tooltip.$, event)
+  // tooltip$.css('top', '20px').css('left', ttleft + 'px')
+  // updatePosition(tooltip.$, event)
 }
 
 tooltip.hide = () => {

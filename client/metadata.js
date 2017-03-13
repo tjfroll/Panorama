@@ -89,6 +89,7 @@ const data = {
       "Host": "The New York Times",
       "Link": "https://www.nytimes.com/2017/02/17/opinion/bring-on-the-special-prosecutor.html",
       "Published": "2017-02-17T03:21:20-05:00",
+      "Highlight": true,
       "Headline": "Bring On the Special Prosecutor",
       "Authors": [
         "The Editorial Board"
@@ -240,6 +241,7 @@ const data = {
       "Host": "Washington Post",
       "Link": "https://www.washingtonpost.com/world/national-security/national-security-adviser-flynn-discussed-sanctions-with-russian-ambassador-despite-denials-officials-say/2017/02/09/f85b29d6-ee11-11e6-b4ff-ac2cf509efe5_story.html",
       "Published": "2017-02-09T11:25-05:00",
+      "Highlight": true,
       "Headline": "National security adviser Flynn discussed sanctions with Russian ambassador, despite denials, officials say",
       "Authors": [
         "Greg Miller",
@@ -499,71 +501,71 @@ const data = {
         "Matt Apuzzo"
       ]
     },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Washington Post",
-      "Publisher": "Associated Press",
-      "Link": "https://www.nytimes.com/2017/03/02/us/politics/kushner-flynn-sessions-russia.html",
-      "Published": "2017-03-10T06:14-05:00",
-      "Headline": "Trump transition knew Flynn might register as foreign agent",
-      "Authors": [
-        "Chad Day",
-        "Stephen Braun",
-        "Julie Pace"
-      ]
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Washington Post",
-      "Publisher": "Associated Press",
-      "Link": "https://www.washingtonpost.com/business/trump-lawyers-knew-flynn-might-register-as-foreign-agent/2017/03/11/8ba2246c-062f-11e7-9d14-9724d48f5666_story.html",
-      "Published": "2017-03-11T08:15-05:00",
-      "Headline": "Trump lawyers knew Flynn might register as foreign agent",
-      "Authors": [
-        "Chad Day",
-        "Stephen Braun",
-        "Julie Pace"
-      ]
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Washington Post",
-      "Publisher": "Associated Press",
-      "Link": "https://www.washingtonpost.com/world/national-security/former-trump-security-adviser-flynn-admits-turkey-lobbying/2017/03/08/b25fc4b4-0441-11e7-9d14-9724d48f5666_story.html",
-      "Published": "2017-03-08T06:16-05:00",
-      "Headline": "Former Trump aide Flynn says lobbying may have helped Turkey",
-      "Authors": [
-        "Stephen Braun",
-        "Chad Day"
-      ],
-      "Contributors": [
-        "Julie Bykowicz"
-      ]
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Washington Post",
-      "Publisher": "Associated Press",
-      "Link": "https://www.washingtonpost.com/business/former-trump-aide-flynn-says-lobbying-may-have-helped-turkey/2017/03/08/87d8d526-0461-11e7-9d14-9724d48f5666_story.html",
-      "Published": "2017-03-09T06:07-05:00",
-      "Headline": "White House: Trump unaware of Flynn’s foreign agent work",
-      "Authors": [
-        "Stephen Braun",
-        "Chad Day"
-      ],
-      "Contributors": [
-        "Julie Bykowicz"
-      ]
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Washington Post",
-      "Publisher": "Associated Press",
-      "Link": "https://www.nytimes.com/aponline/2017/03/09/us/politics/ap-us-trump-the-latest.html",
-      "Published": "2017-03-09T05:54-05:00",
-      "Headline": "The Latest: Pence says Flynn story affirms Trump decision",
-      "Authors": []
-    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Washington Post",
+    //   "Publisher": "Associated Press",
+    //   "Link": "https://www.nytimes.com/2017/03/02/us/politics/kushner-flynn-sessions-russia.html",
+    //   "Published": "2017-03-10T06:14-05:00",
+    //   "Headline": "Trump transition knew Flynn might register as foreign agent",
+    //   "Authors": [
+    //     "Chad Day",
+    //     "Stephen Braun",
+    //     "Julie Pace"
+    //   ]
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Washington Post",
+    //   "Publisher": "Associated Press",
+    //   "Link": "https://www.washingtonpost.com/business/trump-lawyers-knew-flynn-might-register-as-foreign-agent/2017/03/11/8ba2246c-062f-11e7-9d14-9724d48f5666_story.html",
+    //   "Published": "2017-03-11T08:15-05:00",
+    //   "Headline": "Trump lawyers knew Flynn might register as foreign agent",
+    //   "Authors": [
+    //     "Chad Day",
+    //     "Stephen Braun",
+    //     "Julie Pace"
+    //   ]
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Washington Post",
+    //   "Publisher": "Associated Press",
+    //   "Link": "https://www.washingtonpost.com/world/national-security/former-trump-security-adviser-flynn-admits-turkey-lobbying/2017/03/08/b25fc4b4-0441-11e7-9d14-9724d48f5666_story.html",
+    //   "Published": "2017-03-08T06:16-05:00",
+    //   "Headline": "Former Trump aide Flynn says lobbying may have helped Turkey",
+    //   "Authors": [
+    //     "Stephen Braun",
+    //     "Chad Day"
+    //   ],
+    //   "Contributors": [
+    //     "Julie Bykowicz"
+    //   ]
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Washington Post",
+    //   "Publisher": "Associated Press",
+    //   "Link": "https://www.washingtonpost.com/business/former-trump-aide-flynn-says-lobbying-may-have-helped-turkey/2017/03/08/87d8d526-0461-11e7-9d14-9724d48f5666_story.html",
+    //   "Published": "2017-03-09T06:07-05:00",
+    //   "Headline": "White House: Trump unaware of Flynn’s foreign agent work",
+    //   "Authors": [
+    //     "Stephen Braun",
+    //     "Chad Day"
+    //   ],
+    //   "Contributors": [
+    //     "Julie Bykowicz"
+    //   ]
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Washington Post",
+    //   "Publisher": "Associated Press",
+    //   "Link": "https://www.nytimes.com/aponline/2017/03/09/us/politics/ap-us-trump-the-latest.html",
+    //   "Published": "2017-03-09T05:54-05:00",
+    //   "Headline": "The Latest: Pence says Flynn story affirms Trump decision",
+    //   "Authors": []
+    // },
     {
       "Topic": "Michael Flynn",
       "Host": "Washington Post",
@@ -614,16 +616,16 @@ const data = {
         "Jennifer Rubin"
       ]
     },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Washington Post",
-      "Link": "https://www.washingtonpost.com/posteverything/wp/2016/10/18/what-the-heck-has-happened-to-michael-flynn/",
-      "Published": "2016-10-18T09:11-05:00",
-      "Headline": "What the heck has happened to Michael Flynn?",
-      "Authors": [
-        "Daniel W. Drezner"
-      ]
-    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Washington Post",
+    //   "Link": "https://www.washingtonpost.com/posteverything/wp/2016/10/18/what-the-heck-has-happened-to-michael-flynn/",
+    //   "Published": "2016-10-18T09:11-05:00",
+    //   "Headline": "What the heck has happened to Michael Flynn?",
+    //   "Authors": [
+    //     "Daniel W. Drezner"
+    //   ]
+    // },
     {
       "Topic": "Michael Flynn",
       "Host": "Washington Post",
@@ -834,16 +836,16 @@ const data = {
         "Pam Key"
       ]
     },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Link": "http://www.breitbart.com/big-government/2017/02/01/donald-trump-puts-iran-on-notice-for-destabilizing-actions-in-middle-east/",
-      "Published": "2017-02-01T14:32:21-07:00",
-      "Headline": "Donald Trump Puts Iran ‘On Notice’ for ‘Destabilizing Actions’ in Middle East",
-      "Authors": [
-        "Charlie Spiering"
-      ]
-    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Link": "http://www.breitbart.com/big-government/2017/02/01/donald-trump-puts-iran-on-notice-for-destabilizing-actions-in-middle-east/",
+    //   "Published": "2017-02-01T14:32:21-07:00",
+    //   "Headline": "Donald Trump Puts Iran ‘On Notice’ for ‘Destabilizing Actions’ in Middle East",
+    //   "Authors": [
+    //     "Charlie Spiering"
+    //   ]
+    // },
     {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
@@ -909,6 +911,7 @@ const data = {
       "Host": "National Review",
       "Link": "http://www.nationalreview.com/article/444981/trump-administration-russia-congress-mike-flynn-intelligence-community-leaks-new-york-times",
       "Published": "2017-02-16T13:47:01-05:00",
+      "Highlight": true,
       "Headline": "Congress should investigate the allegations of unseemly ties between Russia and the Trump White House",
       "Authors": [
         "The Editors"
@@ -984,14 +987,14 @@ const data = {
         "John Hayward"
       ]
     },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Publisher": "Agence France Press",
-      "Link": "http://www.breitbart.com/news/flynn-resigns-as-trumps-national-security-advisor-white-house/",
-      "Published": "2017-02-13T20:39:40Z",
-      "Headline": "Flynn resigns as Trump’s national security advisor: White House"
-    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Agence France Press",
+    //   "Link": "http://www.breitbart.com/news/flynn-resigns-as-trumps-national-security-advisor-white-house/",
+    //   "Published": "2017-02-13T20:39:40Z",
+    //   "Headline": "Flynn resigns as Trump’s national security advisor: White House"
+    // },
     {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
@@ -1012,22 +1015,22 @@ const data = {
         "Lucas Nolan"
       ]
     },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Publisher": "United Press International",
-      "Link": "http://www.breitbart.com/news/reports-michael-flynn-resigns-as-national-security-advisor-over-russia-ordeal/",
-      "Published": "2017-02-13T20:19:30Z",
-      "Headline": "Reports: Michael Flynn resigns as National Security Advisor over Russia ordeal"
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Publisher": "Agence France Press",
-      "Link": "http://www.breitbart.com/news/trump-security-advisor-flynn-pressured-over-russia-calls/",
-      "Published": "2017-02-13T11:59:32Z",
-      "Headline": "Trump security advisor Flynn pressured over Russia calls",
-    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "United Press International",
+    //   "Link": "http://www.breitbart.com/news/reports-michael-flynn-resigns-as-national-security-advisor-over-russia-ordeal/",
+    //   "Published": "2017-02-13T20:19:30Z",
+    //   "Headline": "Reports: Michael Flynn resigns as National Security Advisor over Russia ordeal"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Agence France Press",
+    //   "Link": "http://www.breitbart.com/news/trump-security-advisor-flynn-pressured-over-russia-calls/",
+    //   "Published": "2017-02-13T11:59:32Z",
+    //   "Headline": "Trump security advisor Flynn pressured over Russia calls",
+    // },
     {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
@@ -1048,38 +1051,38 @@ const data = {
         "Pam Key"
       ]
     },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Publisher": "Agence France Press",
-      "Link": "http://www.breitbart.com/news/top-trump-aide-flynn-resigns-over-russia-contacts/",
-      "Published": "2017-02-13T21:19:33Z",
-      "Headline": "Top Trump aide Flynn resigns over Russia contacts"
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Publisher": "Agence France Press",
-      "Link": "http://www.breitbart.com/news/flynn-talked-sanctions-with-russians-before-trump-in-office-reports/",
-      "Published": "2017-02-10T12:29:30Z",
-      "Headline": "Flynn talked sanctions with Russians before Trump in office: reports"
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Publisher": "Associated Press",
-      "Link": "http://www.breitbart.com/news/text-of-michael-flynns-resignation-letter/",
-      "Published": "2017-02-14T10:49:26Z",
-      "Headline": "Text of Michael Flynn’s resignation letter",
-    },
-    {
-      "Topic": "Michael Flynn",
-      "Host": "Breitbart",
-      "Publisher": "Associated Press",
-      "Link": "http://www.breitbart.com/news/the-latest-flynn-resigns-amid-russia-controversy/",
-      "Published": "2017-02-13T20:09:25Z",
-      "Headline": "The Latest: Flynn resigns amid Russia controversy"
-    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Agence France Press",
+    //   "Link": "http://www.breitbart.com/news/top-trump-aide-flynn-resigns-over-russia-contacts/",
+    //   "Published": "2017-02-13T21:19:33Z",
+    //   "Headline": "Top Trump aide Flynn resigns over Russia contacts"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Agence France Press",
+    //   "Link": "http://www.breitbart.com/news/flynn-talked-sanctions-with-russians-before-trump-in-office-reports/",
+    //   "Published": "2017-02-10T12:29:30Z",
+    //   "Headline": "Flynn talked sanctions with Russians before Trump in office: reports"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/text-of-michael-flynns-resignation-letter/",
+    //   "Published": "2017-02-14T10:49:26Z",
+    //   "Headline": "Text of Michael Flynn’s resignation letter",
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/the-latest-flynn-resigns-amid-russia-controversy/",
+    //   "Published": "2017-02-13T20:09:25Z",
+    //   "Headline": "The Latest: Flynn resigns amid Russia controversy"
+    // },
     {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
@@ -1361,5 +1364,725 @@ const data = {
       "Published": "2017-02-14T13:28:00.000Z",
       "Headline": "The real story here is why are there so many illegal leaks coming out of Washington? Will these leaks be happening as I deal on N.Korea etc?",
     },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/02/18/exclusive-rep-dana-rohrabacher/",
+      "Published": "2017-02-18T23:48:06-07:00",
+      "Headline": "Exclusive–Rep. Dana Rohrabacher: General Flynn Was Treated Unfairly, Perhaps Illegally",
+      "Authors": [
+        "Neil W. McCabe"
+      ]
+    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/white-house-trump-unaware-of-flynns-foreign-agent-work/",
+    //   "Published": "2017-03-09T11:59:27Z",
+    //   "Headline": "White House: Trump unaware of Flynn’s foreign agent work"
+    // },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/02/14/flynn-resigns-priebus-future-doubt-trump-allies-circulate-list-alternate-chief-staff-candidates/",
+      "Published": "2017-02-14T06:24:31Z",
+      "Headline": "As Flynn Resigns, Priebus Future In Doubt As Trump Allies Circulate List of Alternate Chief of Staff Candidates",
+      "Authors": [
+        "Matthew Boyle"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/02/16/judicial-watch-planning-sue-fbi-nsa-cia-flynn-records/",
+      "Published": "2017-02-16T17:39:38-07:00",
+      "Headline": "Judicial Watch Planning to Sue FBI, NSA, CIA for Flynn Records",
+      "Authors": [
+        "Kristina Wong"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/17/maher-the-crime-is-treason-flynns-resignation-most-serious-political-scandal-in-us-history/",
+      "Published": "2017-02-17T22:06:26-07:00",
+      "Headline": "Maher: ‘The Crime Is Treason’ – Flynn’s Resignation ‘Most Serious’ Political Scandal In US History",
+      "Authors": [
+        "Ian Hanchett"
+      ]
+    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/michael-flynns-security-clearance-suspended-pending-review/",
+    //   "Published": "2017-02-15T13:59:35Z",
+    //   "Headline": "Michael Flynn’s security clearance suspended pending review"
+    // },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/laura-ingraham-flynn-resignation-death-thousand-leaks/",
+      "Published": "2017-02-14T06:28:57-07:00",
+      "Headline": "Laura Ingraham on Flynn Resignation: ‘This Was the Death By a Thousand Leaks’",
+      "Authors": [
+        "Jeff Poor"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/15/gowdy-democrat-call-hearings-mike-flynn-politically-motivated/",
+      "Published": "2017-02-15T17:12:43-07:00",
+      "Headline": "Gowdy: Democrat Call for Hearings on Mike Flynn Are ‘Politically Motivated’",
+      "Authors": [
+        "Jeff Poor"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/california/2017/02/20/ranking-democrat-on-house-intelligence-committee-plans-to-question-michael-flynn/",
+      "Published": "2017-02-20T12:13:07Z",
+      "Headline": "Democrat on House Intel Committee to Question Flynn over Russia",
+      "Authors": [
+        "Adelle Nazarian"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/ingraham-flynn-leaks-the-stuff-police-states-do/",
+      "Published": "2017-02-14T17:05:42-07:00",
+      "Headline": "Ingraham: Flynn Leaks ‘The Stuff Police States Do’",
+      "Authors": [
+        "Breitbart TV"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/03/03/mark-levin-obama-used-police-state-tactics-undermine-trump/",
+      "Published": "2017-03-03T00:03:10-07:00",
+      "Headline": "Mark Levin to Congress: Investigate Obama’s ‘Silent Coup’ vs. Trump",
+      "Authors": [
+        "Joel B. Pollak"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/03/06/judicial-watch-only-crimes-in-russia-scandal-are-from-obama-gang/",
+      "Published": "2017-03-06T17:31:41-07:00",
+      "Headline": "Judicial Watch: Only Crimes in Russia Scandal Are from ‘Obama Gang’",
+      "Authors": [
+        "Lee Stranahan"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/national-security/2017/02/13/dr-sebastian-gorka-left-cares-alinsky-tactics-political-triangulation-safety-americans/",
+      "Published": "2017-02-13T10:20:24-07:00",
+      "Headline": "Gorka: Left Cares About Alinsky Tactics and Political ‘Triangulation’ More Than Safety of Americans",
+      "Authors": [
+        "John Hayward"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/15/trump-flynn-treated-very-unfair-with-illegal-leaks/",
+      "Published": "2017-02-15T10:00:00-07:00",
+      "Headline": "Trump: Flynn Treated ‘Very Unfair’ by ‘Fake Media,’ Illegal Leaks",
+      "Authors": [
+        "Pam Key"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/02/15/exclusive-marco-rubio-senate-intelligence-committee-will-look-at-leaked-flynn-call/",
+      "Published": "2017-02-15T15:26:45-07:00",
+      "Headline": "EXCLUSIVE– Marco Rubio: Senate Intelligence Committee Will Look at Leaked Flynn Call",
+      "Authors": [
+        "Kristina Wong"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2016/12/27/woodward-flynn-advising-trump-nuclear-arms-race-is-job-one/",
+      "Published": "2016-12-27T09:23:31-07:00",
+      "Headline": "Woodward: Flynn Advising Trump Nuclear Arms Race Is Job One",
+      "Authors": [
+        "Pam Key"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/16/durbin-of-course-trump-has-a-point-about-flynn-leaks-and-classification-but-it-was-substance-of-leaks-that-ended-flynn/",
+      "Published": "2017-02-16T13:54:00-07:00",
+      "Headline": "Durbin: ‘Of Course’ Trump Has a Point About Flynn Leaks And Classification, But It Was Substance of Leaks That Ended Flynn",
+      "Authors": [
+        "Ian Hanchett"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/radio/2017/02/14/gaffney-blood-water-flynn-resignation-sharks-circling-others/",
+      "Published": "2017-02-14T11:17:26-07:00",
+      "Headline": "Frank Gaffney: ‘Blood in the Water’ After Flynn Resignation; ‘Sharks Will Be Circling for Others’",
+      "Authors": [
+        "John Hayward"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/cnns-stelter-flynn-a-big-moment-for-investigative-journalism/",
+      "Published": "2017-02-14T11:31:15-07:00",
+      "Headline": "CNN’s Stelter: Flynn ‘A Big Moment for Investigative Journalism’",
+      "Authors": [
+        "Ian Hanchett"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/02/15/exclusive-nsa-whistleblower-agency-absolutely-tapping-trumps-calls/",
+      "Published": "2017-02-15T09:45:18-07:00",
+      "Headline": "EXCLUSIVE – NSA Whistleblower: Agency ‘Absolutely’ Tapping Trump’s Calls",
+      "Authors": [
+        "Aaron Klein"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-journalism/2017/02/14/week-trump-correct-about-enormous-problem-deep-state-leaks/",
+      "Published": "2017-02-14T14:53:06-07:00",
+      "Headline": "The Week: Trump Is Right About ‘Enormous Problem’ of Deep State Leaks",
+      "Authors": [
+        "Breitbart News"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/big-government/2017/03/02/sen-orrin-hatch-shocked-obama-team-conducted-surveillance-of-trump-campaign-transition/",
+      "Published": "2017-03-02T09:58:26-07:00",
+      "Headline": "Sen. Orrin Hatch ‘Shocked’ Obama Team Conducted Surveillance of Trump Campaign, Transition",
+      "Authors": [
+        "Neil W. McCabe"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/radio/2017/02/15/gaffney-media-encouraging-deep-stat-put-worst-possible-gloss-flynn-leaks/",
+      "Published": "2017-02-15T08:06:23-07:00",
+      "Headline": "Gaffney: Media Encouraging Deep State to ‘Put the Worst Possible Gloss’ on Flynn Leaks",
+      "Authors": [
+        "Dan Riehl"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/krauthammer-leaks-on-flynn-are-scary-and-scandal-that-doesnt-change-that-he-lied-to-pence/",
+      "Published": "2017-02-14T17:12:12-07:00",
+      "Headline": "Krauthammer: Leaks on Flynn Are A ‘Scandal’ and ‘Scary,’ – That Doesn’t Change That He Lied to Pence",
+      "Authors": [
+        "Ian Hanchett"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/howard-dean-intel-community-took-trumps-measure-when-he-went-after-them/",
+      "Published": "2017-02-14T16:39:29-07:00",
+      "Headline": "Howard Dean: Intel Community Took Trump’s ‘Measure’ When He Went After Them",
+      "Authors": [
+        "Ian Hanchett"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/video/2017/02/14/todd-flynn-is-arguably-the-biggest-presidential-scandal-involving-a-foreign-government-since-iran-contra/",
+      "Published": "2017-02-14T18:31:21Z",
+      "Headline": "Todd: Flynn Is ‘Arguably the Biggest Presidential Scandal Involving a Foreign Government Since Iran-Contra’",
+      "Authors": [
+        "Ian Hanchett"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Breitbart",
+      "Link": "http://www.breitbart.com/radio/2017/02/15/schweizer-media-hound-trump-russia-dealings-silent-clintons-made-tens-millions-dollars-russia/",
+      "Published": "2017-02-15T11:40:39-07:00",
+      "Headline": "Peter Schweizer: Media Hound Trump over Russia Dealings, Silent When Clintons Made ‘Tens of Millions of Dollars’ from Russia’",
+      "Authors": [
+        "John Hayward"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/hillary-clinton-mike-flynn-targeted-over-exposing-pizzagate/",
+      "Published": "2017-02-14T13:08:18-05:00",
+      "Headline": "Hillary Clinton: Mike Flynn Targeted Over Exposing ‘pizzagate’",
+      "Authors": [
+        "Adan Salazar"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/anti-trump-intel-black-hats-responsible-for-fake-flynn-controversy/",
+      "Published": "2017-02-14T06:01:10-05:00",
+      "Headline": "Anti-trump Intel Black Hats Responsible For Fake Flynn Controversy",
+      "Authors": [
+        "Conservative Treehouse"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/the-real-reason-general-flynn-was-forced-to-resign/",
+      "Published": "2017-02-14T10:08:53-05:00",
+      "Headline": "The Real Reason General Flynn Was Forced To Resign",
+      "Authors": [
+        "Paul Joseph Watson"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/wikileaks-destabilization-campaign-responsible-for-flynn-resignation/",
+      "Published": "2017-02-15T12:30:22-05:00",
+      "Headline": "Wikileaks: ‘destabilization Campaign’ Responsible For Flynn Resignation",
+      "Authors": [
+        "Mikael Thalen"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/report-priebus-next-to-go-as-trump-strikes-back-over-flynn/",
+      "Published": "2017-02-15T11:00:19-05:00",
+      "Headline": "Report: Priebus Next To Go As Trump Strikes Back Over Flynn",
+      "Authors": [
+        "Jerome Corsi"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/priebus-on-hook-for-anti-trump-sabotage/",
+      "Published": "2017-02-17T10:55:26-05:00",
+      "Headline": "Priebus On Hook For Anti-trump Sabotage",
+      "Authors": [
+        "Jerome Corsi"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/flynn-just-the-beginning-if-trump-doesnt-clean-house/",
+      "Published": "2017-02-15T13:14:45-05:00",
+      "Headline": "Flynn Just The Beginning If Trump Doesn’t Clean House",
+      "Authors": [
+        "Infowars Nightly News"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/w-h-fears-sabotage-by-intelligence-industrial-complex/",
+      "Published": "2017-02-15T11:49:39-05:00",
+      "Headline": "W.h. Fears Sabotage By Intelligence-industrial Complex",
+      "Authors": [
+        "Clifford Cunningham"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "InfoWars",
+      "Link": "https://www.infowars.com/neo-con-bill-kristol-backs-deep-state-over-trump/",
+      "Published": "2017-02-16T09:54:19-05:00",
+      "Headline": "Neo-con Bill Kristol Backs Deep State Over Trump",
+      "Authors": [
+        "Clifford Cunningham"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/plum-line/wp/2016/12/06/donald-trumps-most-terrifying-appointment/",
+      "Published": "2016-12-06T01:32-05:00",
+      "Headline": "Donald Trump’s most terrifying appointment",
+      "Authors": [
+        "Paul Waldman"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/the-fix/wp/2017/02/14/michael-flynns-speech-at-the-republican-national-convention-predicted-his-demise/",
+      "Published": "2017-02-14T10:04-05:00",
+      "Headline": "Michael Flynn’s speech at the Republican National Convention predicted his demise perfectly",
+      "Authors": [
+        "Peter W. Stevenson"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/opinions/michael-flynns-star-burns-out/2017/02/14/64814e48-f302-11e6-a9b0-ecee7ce475fc_story.html",
+      "Published": "2017-02-14T07:29-05:00",
+      "Headline": "Michael Flynn’s star burns out",
+      "Authors": [
+        "David Ignatius"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/right-turn/wp/2017/01/20/mike-flynn-strike-two/",
+      "Published": "2017-01-20T10:30-05:00",
+      "Headline": "Mike Flynn: Strike two",
+      "Authors": [
+        "Jennifer Rubin"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/checkpoint/wp/2016/11/18/trumps-new-national-security-adviser-has-said-some-incendiary-things-on-the-internet/",
+      "Published": "2016-11-18T12:58-05:00",
+      "Headline": "‘Fear of Muslims is rational’: What Trump’s new national security adviser has said online",
+      "Authors": [
+        "Thomas Gibbons-Neff"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/morning-mix/wp/2017/02/14/flynn-sets-record-with-only-24-days-as-nsc-chief-the-average-tenure-is-about-2-6-years/",
+      "Published": "2017-02-14T06:06-05:00",
+      "Headline": "Flynn sets record with only 24 days as national security adviser. The average tenure is about 2.6 years.",
+      "Authors": [
+        "Derek Hawkins"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/blogs/right-turn/wp/2017/01/09/flynn-isnt-helping-trump-on-russia/",
+      "Published": "2017-01-09T02:30-05:00",
+      "Headline": "Flynn isn’t helping Trump on Russia",
+      "Authors": [
+        "Jennifer Rubin"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/powerpost/house-intelligence-committee-open-to-probing-michael-flynn/2017/02/16/b3d9ea0a-f496-11e6-a9b0-ecee7ce475fc_story.html",
+      "Published": "2017-02-16T08:59-05:00",
+      "Headline": "House Intelligence Committee open to probing Michael Flynn",
+      "Authors": [
+        "Karoun Demirjian"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/the-fix/wp/2017/02/13/trump-got-through-an-entire-news-conference-without-facing-a-single-question-about-michael-flynn/",
+      "Published": "2017-02-13T03:50-05:00",
+      "Headline": "Here’s how Trump avoided questions about Michael Flynn in today’s press conference",
+      "Authors": [
+        "Callum Borchers"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/politics/wp/2017/02/14/how-to-tell-if-that-michael-flynn-twitter-account-is-fake/",
+      "Published": "2017-02-14T12:04-05:00",
+      "Headline": "How to tell if that Michael Flynn Twitter account is fake",
+      "Authors": [
+        "Philip Bump"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/video/politics/heres-why-trumps-national-security-adviser-michael-flynn-resigned-after-just-24-days/2017/02/14/a2d07228-f2b7-11e6-9fb1-2d8f3fc9c0ed_video.html",
+      "Published": "2017-02-14T13:14:00.000Z",
+      "Headline": "Here's why Trump’s national security adviser Michael Flynn resigned after just 24 days",
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/the-fix/wp/2017/02/14/nancy-pelosi-cited-a-fake-michael-flynn-tweet-today/",
+      "Published": "2017-02-14T04:55-05:00",
+      "Headline": "Nancy Pelosi cited a fake Michael Flynn tweet",
+      "Authors": [
+        "Peter W. Stevenson"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/the-fix/wp/2017/02/14/michael-flynns-resignation-doesnt-end-the-russia-story-far-from-it/",
+      "Published": "2017-02-14T09:55-05:00",
+      "Headline": "Mike Flynn’s resignation isn’t the end of the Russia story. It’s only the beginning.",
+      "Authors": [
+        "Chris Cillizza"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/checkpoint/wp/2017/02/14/who-is-michael-flynn-5-stories-to-understand-the-controversies-of-the-embattled-retired-general/",
+      "Published": "2017-02-14T10:55-05:00",
+      "Headline": "Who is Michael Flynn? 5 stories to understand the past controversies of the embattled retired general.",
+      "Authors": [
+        "Julie Vitkovskaya"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Highlight": true,
+      "Link": "https://www.washingtonpost.com/opinions/global-opinions/michael-flynn-is-gone-heres-where-the-national-security-council-should-go-next/2017/02/14/0d4dd6a4-f2ea-11e6-a9b0-ecee7ce475fc_story.html",
+      "Published": "2017-02-14T07:26-05:00",
+      "Headline": "Michael Flynn is gone. Here’s where the National Security Council should go next.",
+      "Authors": [
+        "Editorial Board"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "Washington Post",
+      "Link": "https://www.washingtonpost.com/news/monkey-cage/wp/2017/02/14/why-back-channels-with-russia-cost-michael-flynn-his-job/",
+      "Published": "2017-02-14T08:29-05:00",
+      "Headline": "Why back-channels with Russia cost Michael Flynn his job",
+      "Authors": [
+        "Richard A. Moss"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/video/us/politics/100000004932419/michael-flynn-resigns.html",
+      "Published": "2017-02-28T21:32:33Z",
+      "Headline": "Why Michael Flynn Resigned",
+      "Authors": [
+        "Susan Joan Archer",
+        "Dave Horn",
+        "A.j. Chavar",
+        "Robin Lindsay"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/13/opinion/michael-flynns-phone-call-with-russia.html",
+      "Published": "2017-02-13T14:51:32-05:00",
+      "Headline": "Michael Flynn’s Phone Call With Russia"
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Highlight": true,
+      "Link": "https://www.nytimes.com/2017/02/14/opinion/the-missing-pieces-in-the-flynn-story.html",
+      "Published": "2017-02-14T20:55:04-05:00",
+      "Headline": "The Missing Pieces in the Flynn Story",
+      "Authors": [
+        "The Editorial Board"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Highlight": true,
+      "Link": "https://www.nytimes.com/2017/02/10/opinion/americas-so-called-national-security-adviser.html",
+      "Published": "2017-02-10T21:54:51-05:00",
+      "Headline": "America’s So-Called National Security Adviser",
+      "Authors": [
+        "The Editorial Board"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/14/us/politics/logan-act-flynn.html",
+      "Published": "2017-02-14T12:07:21-05:00",
+      "Headline": "The Logan Act: How Flynn’s Exit Revived Interest in a Dusty, Old Law",
+      "Authors": [
+        "Charlie Savage"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2016/11/30/world/asia/michael-flynn-trump-adviser-china-north-korea.html",
+      "Published": "2016-11-30T03:14:56-05:00",
+      "Headline": "Michael Flynn, a Top Trump Adviser, Ties China and North Korea to Jihadists",
+      "Authors": [
+        "Edward Wong"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2016/12/07/world/asia/michael-flynn-trump-china-islamists.html",
+      "Published": "2016-12-07T10:44:06-05:00",
+      "Headline": "China Pushes Back on Michael Flynn’s ‘Radical Islamist’ Remarks",
+      "Authors": [
+        "Edward Wong"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/14/opinion/flynn-is-exactly-what-trump-deserves.html",
+      "Published": "2017-02-14T10:50:30-05:00",
+      "Headline": "Flynn Is Exactly What Trump Deserves",
+      "Authors": [
+        "Frank Bruni"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/15/us/politics/trump-condemns-leaks-to-news-media-in-a-twitter-flurry.html",
+      "Published": "2017-02-15T08:37:19-05:00",
+      "Headline": "Flynn Was Brought Down by Illegal Leaks to News Media, Trump Says",
+      "Authors": [
+        "Mark Landler",
+        "Richard Pérez-peña"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2016/12/05/us/politics/-michael-flynn-trump-fake-news-clinton.html",
+      "Published": "2016-12-05T13:11:32-05:00",
+      "Headline": "Trump Adviser Has Pushed Clinton Conspiracy Theories",
+      "Authors": [
+        "Matthew Rosenberg"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/14/us/politics/congress-nsc-flynn.html",
+      "Published": "2017-02-14T12:03:53-05:00",
+      "Headline": "Democrats Demand Inquiry of Russian Role in U.S. Affairs; G.O.P. Concern Grows",
+      "Authors": [
+        "Matt Flegenheimer",
+        "Jennifer Steinhauer"
+      ]
+    },
+    {
+      "Topic": "Michael Flynn",
+      "Host": "The New York Times",
+      "Link": "https://www.nytimes.com/2017/02/14/opinion/what-trump-is-doing-is-not-ok.html",
+      "Published": "2017-02-14T15:58:41-05:00",
+      "Headline": "What Trump Is Doing Is Not O.K.",
+      "Authors": [
+        "Thomas L. Friedman"
+      ]
+    },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/conway-says-flynn-quit-because-hed-become-lightning-rod/",
+    //   "Published": "2017-02-14T09:09:26Z",
+    //   "Headline": "Conway says Flynn quit because he’d become ‘lightning rod’"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/conway-flynn-resigned-because-hed-become-a-lightning-rod/",
+    //   "Published": "2017-02-14T05:29:27Z",
+    //   "Headline": "Conway: Flynn resigned because he’d become ‘a lightning rod’"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/the-latest-trump-evaluating-flynn-russia-situation/",
+    //   "Published": "2017-02-13T15:19:27Z",
+    //   "Headline": "The Latest: Trump ‘evaluating’ Flynn-Russia situation"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/trump-knew-flynn-misled-wh-weeks-before-ouster-officials/",
+    //   "Published": "2017-02-14T15:49:27Z",
+    //   "Headline": "Trump knew Flynn misled WH weeks before ouster: Officials"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/house-dems-want-probe-of-intelligence-chiefs-ties-to-russia/",
+    //   "Published": "2017-02-01T11:59:26Z",
+    //   "Headline": "House Dems want probe of intelligence chief’s ties to Russia"
+    // },
+    // {
+    //   "Topic": "Michael Flynn",
+    //   "Host": "Breitbart",
+    //   "Publisher": "Associated Press",
+    //   "Link": "http://www.breitbart.com/news/the-latest-trump-has-full-confidence-in-flynn/",
+    //   "Published": "2017-02-10T15:09:25Z",
+    //   "Headline": "The Latest: Trump has ‘full confidence’ in Flynn"
+    // },
   ]
 }
+
+// http://www.vox.com/policy-and-politics/2016/11/15/13638186/trump-transition-appointments-cabinet
+// http://www.vox.com/world/2016/11/16/13638606/trump-secretary-state-defense-giuliani-bolton-islam-terrorism
+// http://www.vox.com/policy-and-politics/2016/12/2/13817350/daily-show-michael-flynn-national-security-adviser
+// http://www.vox.com/world/2016/11/19/13678070/michael-flynn-national-security-adviser-actual-job
+// http://www.vox.com/2016/11/17/13673280/mike-flynn-trump-new-national-security-adviser-russia-isis-obama-clinton-turkey
+// http://www.vox.com/policy-and-politics/2017/2/14/14610786/steve-bannon-reince-priebus
+// http://www.vox.com/policy-and-politics/2017/2/14/14609348/trump-hire-best-people
+// http://www.vox.com/policy-and-politics/2017/2/15/14623118/dan-rather-trump-watergate
+// http://www.vox.com/world/2017/2/22/14598834/trump-deep-state
+// http://www.vox.com/conversations/2017/2/16/14630856/evelyn-farkas-trump-russia-flynn
+// http://www.vox.com/policy-and-politics/2017/2/17/14635966/congress-russia-putin-trump
+// http://www.vox.com/policy-and-politics/2017/2/14/14609980/donald-trump-own-worst-enemy
+// http://www.vox.com/2017/2/14/14619240/vox-sentences-flynn-resigns
+// http://www.vox.com/2017/2/15/14616094/trump-flynn-executive-privilege
+// http://www.vox.com/policy-and-politics/2017/2/14/14609816/kellyanne-conway-flynn-lauer
+// http://www.vox.com/policy-and-politics/2017/2/15/14612522/gop-senators-split-flynn-russia
+// http://www.vox.com/policy-and-politics/2017/2/14/14608854/trump-sanctions-russia-flynn
+// http://www.vox.com/conversations/2017/2/15/14623636/donald-trump-michael-flynn-russia-putin-cia-white-house
+// http://www.vox.com/2017/3/2/14795758/flynn-kushner-kislyak
+// http://www.vox.com/policy-and-politics/2017/2/14/14610022/national-security-adviser-flynn-replacement-harward
+// http://www.vox.com/policy-and-politics/2017/2/14/14613220/white-house-contradiction-flynn
+// http://www.vox.com/policy-and-politics/2017/2/14/14609850/gop-investigators-wont-investigate-michael-flynn
+// http://www.vox.com/policy-and-politics/2017/2/14/14611124/michael-flynn-resigns-russia-news
+// http://www.vox.com/policy-and-politics/2017/3/3/14792942/sessions-flynn-kislyak-timeline
+// http://www.vox.com/world/2017/3/9/14868680/trump-adviser-michael-flynn-foreign-agent-turkey-lobby
+// http://www.vox.com/policy-and-politics/2017/2/14/14609618/michael-flynn-trump-hillary-clinton
+// http://www.vox.com/2017/2/16/14640956/trump-press-conference-flynn-fired
+// http://www.vox.com/policy-and-politics/2017/2/14/14606932/michael-flynn-resigns-scandal
+// http://www.vox.com/policy-and-politics/2017/2/15/14614016/flynn-resigned-trump-russia-fbi-sanctions
+// http://www.vox.com/policy-and-politics/2017/2/14/14607034/michael-flynn-resigns-russia-news
+// http://www.vox.com/2017/2/14/14613308/why-was-michael-flynn-fired
+// http://www.vox.com/world/2017/2/14/14609478/michael-flynn-trump-foreign-policy
+// http://www.vox.com/policy-and-politics/2017/2/14/14610494/elizabeth-warren-tweetstorm-michael-flynn
