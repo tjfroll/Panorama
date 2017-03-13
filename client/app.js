@@ -12,7 +12,7 @@ append(body, [
   new Div('.intro', [
     P({
       textContent: `This a proof of concept for a tool that, hopefully, reveals bias by contextualizing the news through aggregation.
-      For this demo, I focused on collecting news about Michael Flynn.`
+      For this demo, I focused on collecting news about the appointment and resignation of National Security Adviser Michael Flynn, post-election.`
     })
   ])
 ])
@@ -25,7 +25,7 @@ body.append(
   new Div('.outro', [
     P({
       innerHTML: `
-        This is all collected by hand, some errors are expected. Feedback appreciated 
+        <a href="http://thelackthereof.com/2017/03/13/panorama/">Methods and reasoning explained here</a>. Feedback appreciated 
         <a href="https://twitter.com/thunderfunking">@thunderfunking</a>.`
     })
   ])
