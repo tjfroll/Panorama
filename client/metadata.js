@@ -1087,7 +1087,7 @@ const data = {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
       "Link": "http://www.breitbart.com/national-security/2017/02/17/fbi-no-charges-former-national-security-adviser-michael-flynn/",
-      "Published": "2017-02-14T09:56:21-07:00",
+      "Published": "2017-02-17T21:06:27-07:00",
       "Headline": "FBI: No Charges Against Former National Security Adviser Michael Flynn",
       "Authors": [
         "John Hayward"
@@ -1125,7 +1125,7 @@ const data = {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
       "Link": "http://www.breitbart.com/national-security/2017/02/13/flynn-resignation-raises-questions-fbi-intel-services/",
-      "Published": "2017-02-13T21:18:06-08:00",
+      "Published": "2017-02-13T21:18:06-07:00",
       "Headline": "Flynn Resignation Raises Tough Questions for FBI, Intel Services",
       "Authors": [
         "Joel B. Pollak"
@@ -1135,7 +1135,7 @@ const data = {
       "Topic": "Michael Flynn",
       "Host": "Breitbart",
       "Link": "http://www.breitbart.com/national-security/2017/02/13/media-launches-career-deathwatch-michael-flynn/",
-      "Published": "2017-02-13T19:58:35-08:00",
+      "Published": "2017-02-13T19:58:35-07:00",
       "Headline": "Media Launches Career Deathwatch for National Security Adviser Mike Flynn",
       "Authors": [
         "John Hayward"
