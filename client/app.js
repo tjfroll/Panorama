@@ -12,7 +12,7 @@ append(body, [
   new Div('.intro', [
     P({
       textContent: `This a proof of concept for a tool that, hopefully, reveals bias by contextualizing the news through aggregation.
-      For this demo, I focused on the scandals surrounding Michael Flynn. More outlets will be added over time.`
+      For this demo, I focused on collecting news about Michael Flynn.`
     })
   ])
 ])
