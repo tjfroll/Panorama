@@ -11,9 +11,11 @@ table {
 }
 
 thead, tfoot {
-  background-color: #444;
   display: block;
   table-layout: fixed;
+}
+thead {
+  background-color: rgb(68, 68, 68);
 }
 tbody {
   display: block;

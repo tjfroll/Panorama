@@ -51,8 +51,9 @@ const makeTimeline = () => {
     tfr.append(
       new TH({
         style: {
-          'min-width': isCompact.to( compact => compact ? '5rem' : width + 'px')
-          }
+          'min-width': isCompact.to( compact => compact ? '5rem' : width + 'px'),
+          'background-color': `rgba(68, 68, 68, ${Math.max(Math.min(count / 10, 1), 0.3)})`
+        }
       }, [
         Span({
           textContent: count
