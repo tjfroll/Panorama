@@ -14,6 +14,18 @@ const fields = {
     required: true,
     type: 'url'
   },
+  Site: {
+    required: true,
+    type: 'dropdown'
+  },
+  Source: {
+    required: false,
+    type: 'url'
+  },
+  Syndication: {
+    required: false,
+    type: 'dropdown'
+  },
   Headline: {
     required: true,
     type: 'text'
@@ -25,18 +37,6 @@ const fields = {
   Keywords: {
     required: false,
     type: 'multiselect'
-  }
-  Host: {
-    required: true,
-    type: 'dropdown'
-  },
-  Source: {
-    required: false,
-    type: 'url'
-  },
-  Syndication: {
-    required: false,
-    type: 'dropdown'
   },
   Authors: {
     required: false,
@@ -58,7 +58,9 @@ const fields = {
 
 class EntryDialog extends Dialog('.form') {
   ready() {
-
+    for (const field in fields) {
+      const { required, type } = fields[field]
+    }
   }
 }
 
