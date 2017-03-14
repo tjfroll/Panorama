@@ -18,6 +18,7 @@ append(body, [
 ])
 
 append(body, makeCompactToggle())
+append(body, makeEntryButton())
 
 append(body, new Div('.timeline', [makeTimeline()]))
 

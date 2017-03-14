@@ -1,0 +1,27 @@
+{
+  "name": "panorama",
+  "version": "0.0.1",
+  "description": "Chronological and topical news aggregation.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjfroll/Panorama.git"
+  },
+  "keywords": [
+    "news",
+    "aggregation",
+    "timeline"
+  ],
+  "author": "Tim Froehlich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjfroll/Panorama/issues"
+  },
+  "homepage": "https://github.com/tjfroll/Panorama#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}

@@ -1,18 +1,28 @@
-let articles = data.Articles
-articles.sort(function(a,b){
-  return new Date(a.Published) - new Date(b.Published);
-})
-articlesByDay = _.groupBy(articles, article => moment(article.Published).format('MMM D YYYY'))
-
 const makeTimeline = () => {
   const table = new Table()
+
+  $.get('https://panorama-2fb31.firebaseio.com/Articles.json')
+    .then( (articles) => {
+      articles.sort(function(a,b){
+        return new Date(a.Published) - new Date(b.Published);
+      })
+      loadArticles(articles, table)
+    })
+    .fail( (error) => {
+      console.error('Failed to fetch articles.', error)
+    })
+
+  return table
+}
+
+const loadArticles = (articles, table) => {
   const thead = append(table, new THead())
   const thr = append(thead, new TR())
   const tbody = append(table, new TBody())
   const tr = append(tbody, new TR())
   const tfoot = append(table, new TFoot())
   const tfr = append(tfoot, new TR())
-
+  articlesByDay = _.groupBy(articles, article => moment(article.Published).format('MMM D YYYY'))
   for (day in articlesByDay) {
     const dayArticles = articlesByDay[day]
 
@@ -65,5 +75,4 @@ const makeTimeline = () => {
       ])
     )
   }
-  return table
 }
