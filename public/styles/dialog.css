@@ -1,0 +1,46 @@
+#backdrop {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000;
+  opacity: .3;
+  z-index: 10;
+}
+
+.dialog {
+  position: absolute;
+  top: 1rem;
+  left: 25%;
+  width: 50%;
+  max-width: 700px;
+  height: 90vh;
+  display: flex;
+  z-index: 100;
+  flex-direction: column;
+  background-color: #EFEFEF;
+  border-radius: 1rem;
+}
+
+.dialog .header {
+  order: 1;
+  flex: 0 0 2.5rem;
+  border-bottom: .1rem solid #CCC;
+  width: 100%;
+}
+
+.dialog .body {
+  padding: .5rem;
+  order: 2;
+  flex: 1 1 90%;
+  overflow: auto;
+  background-color: #f7f7f7;
+}
+
+.dialog .footer {
+  order: 3;
+  flex: 0 0 2.5rem;
+  border-top: .1rem solid #CCC;
+  width: 100%;
+}

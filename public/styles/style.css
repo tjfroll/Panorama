@@ -85,3 +85,9 @@ button.compact {
   top: 1rem;
   left: 1rem;
 }
+
+button.entry {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

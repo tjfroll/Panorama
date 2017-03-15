@@ -23,10 +23,13 @@
     <meta itemprop="description" content="Explore bias by contextualizing the news through aggregation.">
     <meta property="article:published_time" content="2017-03-12T12:00:45+00:00">
     <meta property="article:modified_time" content="2017-02-13T12:00:45+00:00">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Selectivity.js/2.1.0/selectivity-full.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dialog.css" />
     <link rel="stylesheet" href="./styles/card.css" />
     <link rel="stylesheet" href="./styles/timeline.css" />
     <link rel="stylesheet" href="./styles/tooltip.css" />
+    <link rel="stylesheet" href="./styles/articleForm.css" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,6 +42,7 @@
     </script>
   </head>
   <body>
+    <script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.js"
       integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
       crossorigin="anonymous"></script>
@@ -47,13 +51,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.4.3/velocity.js"></script>
-    <script src="./client/colorMap.js"></script>
-    <script src="./client/tooltip.js"></script>
-    <script src="./client/timeline.js"></script>
-    <script src="./client/compact.js"></script>
-    <script src="./client/entry.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Selectivity.js/2.1.0/selectivity-full.js"></script>
+    <script src="./client/init.js"></script>
     <script src="./client/util.js"></script>
+    <script src="./client/colorMap.js"></script>
+    <script src="./client/articleFields.js"></script>
+    <script src="./client/tooltip.js"></script>
     <script src="./client/card.js"></script>
+    <script src="./client/articleForm.js"></script>
+    <script src="./client/timeline.js"></script>
+    <script src="./client/dialog.js"></script>
     <script src="./client/app.js"></script>
   </body>
 </html>

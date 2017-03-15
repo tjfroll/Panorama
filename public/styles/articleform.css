@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  height: 2rem;
+  border: 1px solid #CCC;
+  font-size: 1rem;
+  padding: .25rem .5rem;
+}
+
+.field:not(:last-child) {
+  margin-bottom: .8rem;
+}
+
+.selectivity-single-result-container {
+  top: .5rem;
+  left: 0;
+}
+
+.selectivity-multiple-input-container {
+  background-color: transparent;
+  padding: 0;
+}
+
+.selectivity-single-select {
+  background-color: transparent;
+  height: 2rem;
+  padding: 0;
+}
