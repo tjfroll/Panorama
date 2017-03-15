@@ -82,6 +82,6 @@ let ITEMS = {
   'Contributors': CONTRIBUTORS,
   'Keywords': KEYWORDS,
   'Site': SITES,
-  'Story': STORIES
+  'Story': STORIES,
   'Syndication': SYNDICATIONS
 }

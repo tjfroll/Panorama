@@ -43,7 +43,13 @@ $.get('https://panorama-2fb31.firebaseio.com/Articles.json')
     AUTHORS.put(_.uniq(_.compact(_.flatMap(articles, 'Authors'))).sort())
     KEYWORDS.put(_.uniq(_.compact(_.flatMap(articles, 'Keywords'))).sort())
     CONTRIBUTORS.put(_.uniq(_.compact(_.flatMap(articles, 'Contributors'))).sort())
-    append(dialog.body, new ArticleForm())
+    const form = new ArticleForm()
+    append(dialog.body, form)
+    debugger
+    append(dialog.footer, new Button('.submit', {
+      display: form.isComplete,
+      onclick: e => $.post('https://panorama-2fb31.firebaseio.com/Articles.json', { data: form.data.valueOf() })
+    }))
     dialog.show()
     timeline.append(new Timeline({ articles}))
   })
