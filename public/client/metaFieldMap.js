@@ -1,15 +1,15 @@
 const META_FIELD_MAP = {
   'url': {
     field: 'Url',
-    priority: 1
+    priority: 3
   },
   'og:url': {
     field: 'Url',
-    priority: 2
+    priority: 1
   },
   'twitter:url': {
     field: 'Url',
-    priority: 3
+    priority: 2
   },
   'original-source': {
     field: 'Url',
@@ -51,6 +51,10 @@ const META_FIELD_MAP = {
     field: 'Headline',
     priority: 2
   },
+  'sailthru.title': {
+    field: 'Headline',
+    priority: 3
+  },
   'title': {
     field: 'Headline',
     priority: 3
@@ -74,6 +78,10 @@ const META_FIELD_MAP = {
   'twitter:description': {
     field: 'Description',
     priority: 2
+  },
+  'sailthru.description': {
+    field: 'Description',
+    priority: 3
   },
   'description': {
     field: 'Description',
@@ -124,6 +132,10 @@ const META_FIELD_MAP = {
     priority: 5
   },
   'articleSection': {
+    field: 'Keywords',
+    priority: 5
+  },
+  'sailthru.tags': {
     field: 'Keywords',
     priority: 5
   },

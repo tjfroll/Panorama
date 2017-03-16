@@ -4,11 +4,18 @@ const parseValues = (html, target) => {
   valuesByField = _.groupBy(values, 'field')
   for (const field in valuesByField) {
     valuesByField[field] = _.sortBy(valuesByField[field], 'priority')
+
+    // these can be split across multiple values, so bring them together
     if (['Authors', 'Keywords'].indexOf(field) > -1) {
-      for (const value of valuesByField[field][0].value) {
-        if (target.get(field).indexOf(value) === -1)
-          target.property(field).push(value)
+      const currentValue = target.get(field)
+      for (const { value } of valuesByField[field]) {
+        let cleanValue = value.trim()
+        // sometimes these are just facebook or twitter urls
+        if (cleanValue.includes('/')) continue
+        if (currentValue.indexOf(cleanValue) === -1)
+          currentValue.push(cleanValue)
       }
+      target.set(field, currentValue)
     } else {
       target.set(field, valuesByField[field][0].value)
     }
@@ -16,10 +23,13 @@ const parseValues = (html, target) => {
 }
 
 const extractValues = (html) => {
-  if (html.indexOf('<head') === -1) return false
-  if (html.indexOf('</head>') === -1) return false
-  if (html.indexOf('<body') === -1) return false
-  if (html.indexOf('</body>') === -1) return false
+  // just some basic validation
+  if (!html.includes('<head')) return false
+  if (!html.includes('</head>')) return false
+  if (!html.includes('<body')) return false
+  if (!html.includes('</body>')) return false
+
+  // first, find the <meta> tags
   metas = html.split('<meta')
   let values = []
   for (metaString of metas) {
@@ -27,9 +37,11 @@ const extractValues = (html) => {
     if (parsed.field && parsed.value) {
       values.push(parsed)
     } else {
-      // console.log('UNKNOWN', parsed)
+      console.log('UNKNOWN', parsed)
     }
   }
+
+  // for now, this is just to find the article link
   links = html.split('<link')
   for (linkString of links) {
     let parsed = getSiteUrl(linkString)
@@ -41,7 +53,7 @@ const extractValues = (html) => {
       })
     }
   }
-  return values
+  return _.uniqBy(values, 'value')
 }
 
 const getSiteUrl = (str) => {
@@ -66,6 +78,7 @@ const parseMetadata = (str) => {
   }
 }
 
+// Three possible meta tag identifiers to check for
 const getMetaType = (strings) => {
   let label = _.find(strings, prop => prop.endsWith('itemprop'))
   if (!label) label = _.find(strings, prop => prop.endsWith('name'))
@@ -75,6 +88,7 @@ const getMetaType = (strings) => {
   return trimValue(value)
 }
 
+// The actual value of the tag
 const getMetaValue = (strings) => {
   let label = _.find(strings, prop => prop.endsWith('content'))
   if (!label) return ''
@@ -82,10 +96,11 @@ const getMetaValue = (strings) => {
   return trimValue(value)
 }
 
+// Account for all possible locations of the identifier and value
 const trimValue = (value) => {
-  let split1 = value.split('">')[0]
-  let split2 = value.split('"/>')[0]
-  let split3 = value.split('" ')[0]
+  let split1 = value.split('">')[0].trim()
+  let split2 = value.split('"/>')[0].trim()
+  let split3 = value.split('" ')[0].trim()
   if (split1.length < split2.length && split1.length < split3.length)
     return split1
   if (split2.length < split3.length)

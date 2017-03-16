@@ -34,9 +34,12 @@ class ArticleForm extends Div('.form') {
       } else if (type === 'dropdown' || 'multiselect') {
         const onblur = type === 'multiselect' ?
           e => {
+            const currentValue = data.get(field)
             for (const value of e.target.value.split(',')) {
-              data.push(field, value.trim())
+              if (currentValue.indexOf(value.trim()) === -1)
+                currentValue.push(field, value.trim())
             }
+            data.set(field, currentValue)
           } : e => data.set(field, e.target.value)
         const input = new Input('.field', {
           type: 'text',
@@ -71,7 +74,14 @@ class Submit extends Button('.submit') {
     const { form } = props
     props.display = form.data.to( data => isValid(data)),
     props.textContent = 'Submit',
-    props.onclick = e => $.post('https://panorama-2fb31.firebaseio.com/Articles.json', { data: form.data.valueOf() })
+    // props.onclick = e => {
+    //   let articles = globalArticles.valueOf()
+    //   articles.push(form.data.valueOf())
+    //   globalArticles.put(articles)
+    // }
+    props.onclick = e => {
+      $.post('https://panorama-2fb31.firebaseio.com/Articles.json', JSON.stringify(form.data.valueOf()))
+    }
   }
 }
 

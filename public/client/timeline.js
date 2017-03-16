@@ -1,12 +1,20 @@
 class Timeline extends Table() {
   created(props) {
     const { articles } = props
+    articles.subscribe( (a) => {
+      this.renderArticles(a)
+    })
+  }
+
+  renderArticles(articles) {
+    empty(this)
     const thead = append(this, new THead())
     const thr = append(thead, new TR())
     const tbody = append(this, new TBody())
     const tr = append(tbody, new TR())
     const tfoot = append(this, new TFoot())
     const tfr = append(tfoot, new TR())
+
     const articlesByDay = _.groupBy(articles, article => moment(article.Published).format('MMM D YYYY'))
 
     for (const day in articlesByDay) {
@@ -39,7 +47,11 @@ class Timeline extends Table() {
         }
       }))
       for (const article of dayArticles) {
-        td.append(new Card({ article }))
+        td.append(
+          new Card({
+            article: article
+          })
+        )
       }
 
       const count = dayArticles.length

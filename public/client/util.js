@@ -10,3 +10,9 @@ const append = (target, elements) => {
   }
   return elements
 }
+
+const empty = (element) => {
+  while (element.firstChild) {
+    element.removeChild(element.firstChild);
+  }
+}

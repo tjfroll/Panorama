@@ -31,6 +31,7 @@ append(body, new Button('.entry', {
 }))
 
 const timeline = append(body, new Div('.timeline'))
+const globalArticles = new Variable([])
 
 $.get('https://panorama-2fb31.firebaseio.com/Articles.json')
   .then( (articles) => {
@@ -44,10 +45,11 @@ $.get('https://panorama-2fb31.firebaseio.com/Articles.json')
     KEYWORDS.put(_.uniq(_.compact(_.flatMap(articles, 'Keywords'))).sort())
     CONTRIBUTORS.put(_.uniq(_.compact(_.flatMap(articles, 'Contributors'))).sort())
     const form = new ArticleForm()
+    globalArticles.put(articles)
     append(dialog.body, form)
     append(dialog.footer, new Submit({ form }))
     dialog.show()
-    timeline.append(new Timeline({ articles}))
+    timeline.append(new Timeline({ articles: globalArticles }))
   })
   .fail( (error) => {
     console.error('Failed to fetch articles.', error)
