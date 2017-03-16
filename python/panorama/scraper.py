@@ -4,7 +4,7 @@
 Use bs4 and newspaper packages to extract information from news articles.
 
 Example:
-    TODO: Put an example here
+    TODO: Put an example here.
 
 Todo:
     * Add an example.
