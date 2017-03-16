@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""handle-apis.py
+"""handle_apis.py
 
 Functions to handle individual news site APIs.
 
