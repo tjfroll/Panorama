@@ -1,11 +1,14 @@
 .idea/
 .ipynb_checkpoints/
 push
+<<<<<<< HEAD
+api-keys/
+*.pyc
+=======
 database.rules.json
 firebase.json
 public/panorama.sublime-project
 public/panorama.sublime-workspace
 panorama.sublime-project
 panorama.sublime-workspace
-api-keys/
-*.pyc
+>>>>>>> e4a47d3659607325523db1daaba0c318a043372f
