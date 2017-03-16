@@ -7,7 +7,6 @@
   padding: 0;
   margin: 0;
 }
-
 html {
   font-size: 100%; //for rem
 }
@@ -60,7 +59,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
   max-width: 50rem;
 }
 
@@ -68,94 +67,21 @@ h2 {
   padding: 1rem;
 }
 
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-  table-layout: fixed;
-  border-bottom: .05rem solid #777;
-}
-
-thead, tfoot {
-  background-color: #444;
-  display: block;
-  table-layout: fixed;
-}
-th {
-  letter-spacing: .05rem;
+button {
+  background-color: #777;
   color: #FFF;
-  padding: .2rem .5rem;
-  font-weight: bold;
+  padding: .5rem;
   font-size: 1rem;
-}
-th:not(:last-child) {
-  border-right: .05rem solid #777;
-}
-tr {
-  display: table;
+  transition: .15s background-color;
 }
 
-tbody {
-  display: block;
-  overflow: auto;
-  max-height: calc(100vh - 18rem);
-
-}
-tbody tr {
-  display: table;
-  table-layout: fixed;
-  border-bottom: .05rem solid #CCC;
+button:hover {
+  background-color: #888;
+  cursor: pointer;
 }
 
-tbody tr:nth-child(even) {
-  background-color: .05rem solid #000;
-}
-
-td {
-  padding: .2rem .5rem;
-  vertical-align: top;
-  min-width: 14rem;
-}
-td:not(:last-child) {
-  border-right: .05rem solid #CCC;
-}
-td:nth-child(even) {
-  background-color: rgba(0, 0, 0, .02);
-}
-td p, td a {
-  display: block;
-  margin-bottom: .6rem;
-  padding-left: 1.3rem;
-  text-indent: -1.3rem;
-  transition: .05s background-color;
-  font-size: 1rem;
-}
-
-a:hover {
-  background-color: rgba(0,0,0,.04);
-}
-
-#tooltip {
+button.compact {
   position: absolute;
-  width: auto;
-  min-width: 15rem;
-  max-width: 30rem;
-  padding: .2rem .5rem;
-  background: rgba(0, 0, 0, .65);
-  color: #FFF;
-  border-radius: .3rem;
-  z-index: 9001;
-  font-size: .8rem;
-  display: block;
-}
-
-
-#tooltip p {
-  margin-bottom: .2rem;
-  padding-left: 1rem;
-  text-indent: -1rem;
-  font-size: .8rem;
-}
-
- #tooltip p:last-child {
-  margin-bottom: 0;
+  top: 1rem;
+  left: 1rem;
 }

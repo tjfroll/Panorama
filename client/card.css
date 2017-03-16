@@ -1,0 +1,51 @@
+
+a.card {
+  position: relative;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .6rem;
+  padding: .3rem;
+  transition: .15s opacity;
+  font-size: 1rem;
+  border: 1px solid #777;
+  border-radius: .15rem;
+  vertical-align: top;
+  opacity: .75;
+}
+
+a.card:hover {
+  background-color: rgba(0,0,0,.04);
+  opacity: 1;
+}
+
+.card .headline {
+  flex: 0 0 50%;
+  font-size: .95rem;
+  order: 1;
+  padding-left: .5rem;
+  text-indent: -.5rem;
+}
+
+.card .footer {
+  order: 2;
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.card .time {
+  font-size: .8rem;
+  opacity: .55;
+  flex: 0 0 50%;
+  order: 2;
+}
+
+.card .acronym {
+  order: 2;
+  flex: 0 0 50%;
+  opacity: .55;
+  font-size: 1.2rem;
+  text-align: right;
+}
