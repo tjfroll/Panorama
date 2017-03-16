@@ -1,0 +1,61 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] CLI Version:  3.5.0
+[debug] Platform:     darwin
+[debug] Node Version: v7.1.0
+[debug] Time:         Wed Mar 15 2017 22:38:31 GMT-0400 (EDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/panorama-2fb31  
+ Wed Mar 15 2017 22:38:31 GMT-0400 (EDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/panorama-2fb31/tokens  
+ Wed Mar 15 2017 22:38:31 GMT-0400 (EDT)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'panorama-2fb31'...
+[info] 
+[info] i  deploying database, functions, hosting
+[info] ✔  database: rules ready to deploy.
+[debug] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "firebase-admin": "^4.1.2",
+    "firebase-functions": "^0.5"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/panorama-2fb31?view=CONSUMER_VIEW  
+ Wed Mar 15 2017 22:38:33 GMT-0400 (EDT)
+[debug] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/panorama-2fb31?view=CONSUMER_VIEW  
+ Wed Mar 15 2017 22:38:33 GMT-0400 (EDT)
+[debug] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] <<< HTTP RESPONSE 200
+[info] ✔  runtimeconfig: all necessary APIs are enabled
+[debug] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/panorama-2fb31  
+ Wed Mar 15 2017 22:38:33 GMT-0400 (EDT)
+[debug] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/panorama-2fb31/apiKeys  
+ Wed Mar 15 2017 22:38:33 GMT-0400 (EDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/panorama-2fb31/configs  
+ Wed Mar 15 2017 22:38:35 GMT-0400 (EDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] > [functions] runtime config materialized as: {
+  "firebase": {
+    "databaseURL": "https://panorama-2fb31.firebaseio.com",
+    "storageBucket": "panorama-2fb31.appspot.com",
+    "apiKey": "AIzaSyA_iJOxwtWMv5-LkuhZWyW7KnBCX17Y1vE",
+    "authDomain": "panorama-2fb31.firebaseapp.com"
+  }
+}
+[debug] > [functions] parsed triggers: []
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/panorama-2fb31/uploads/-KfJymRd1AVLz5O0j6Z8?fileCount=23&message=  
+ Wed Mar 15 2017 22:38:36 GMT-0400 (EDT)
