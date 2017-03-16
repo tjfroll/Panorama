@@ -25,7 +25,7 @@ def nytimes_api():
     """
     # File containing the New York Times API key
     key_file = 'api-keys/nytimes.txt'
-    # Read in the key string
+    # Read in the key string, remove the final character
     with open(key_file) as f:
-        key = f.read()
+        key = f.read()[::-1]
     return nyt.articleAPI(key)
