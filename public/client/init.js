@@ -14,5 +14,6 @@ let { Variable,
   Strong,
   TFoot,
   H1,
-  H2
+  H2,
+  Textarea
 } = alkali

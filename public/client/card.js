@@ -1,11 +1,10 @@
 class Card extends A('.card') {
   created(props) {
     const { article } = props
-    props.href = article.Link
+    props.href = article.Url
     props.target = '_blank'
     props.style = {
-      'background-color': COLOR_MAP[article.Publisher || article.Host],
-      'box-shadow': article.Highlight ? '#f8c616 0px 0px 7px 1px' : ''
+      'background-color': COLOR_MAP[article.Publisher || article.Site]
     }
     props.onmouseenter = (event) => window.tooltip.show(cardTooltip, event)
     props.onmouseleave = (event) => window.tooltip.hide()
@@ -21,7 +20,7 @@ class Card extends A('.card') {
           display: not(isCompact)
         }),
         Span('.acronym', {
-          textContent: ACRONYM_MAP[article.Host] || ACRONYM_MAP[article.Publisher]
+          textContent: ACRONYM_MAP[article.Site] || ACRONYM_MAP[article.Publisher]
         })
       ])
     ])
@@ -34,7 +33,7 @@ class CardTooltip extends Div {
     this.append(
       new P([
         Strong('Site'),
-        Span(article.Host)
+        Span(article.Site)
       ])
     )
     this.append(

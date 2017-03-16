@@ -45,11 +45,7 @@ $.get('https://panorama-2fb31.firebaseio.com/Articles.json')
     CONTRIBUTORS.put(_.uniq(_.compact(_.flatMap(articles, 'Contributors'))).sort())
     const form = new ArticleForm()
     append(dialog.body, form)
-    debugger
-    append(dialog.footer, new Button('.submit', {
-      display: form.isComplete,
-      onclick: e => $.post('https://panorama-2fb31.firebaseio.com/Articles.json', { data: form.data.valueOf() })
-    }))
+    append(dialog.footer, new Submit({ form }))
     dialog.show()
     timeline.append(new Timeline({ articles}))
   })

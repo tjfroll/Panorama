@@ -1,7 +1,7 @@
 const ARTICLE_TEMPLATE = {
-  Story: '',
   Url: '',
   Site: '',
+  Story: '',
   Source: '',
   Syndication: '',
   Headline: '',
@@ -14,10 +14,6 @@ const ARTICLE_TEMPLATE = {
 }
 
 const ARTICLE_FIELDS = {
-  Story: {
-    required: true,
-    type: 'dropdown'
-  },
   Url: {
     required: true,
     type: 'url'
@@ -28,10 +24,18 @@ const ARTICLE_FIELDS = {
   },
   Source: {
     required: false,
+    type: 'dropdown'
+  },
+  SourceUrl: {
+    required: false,
     type: 'url'
   },
   Syndication: {
     required: false,
+    type: 'dropdown'
+  },
+  Story: {
+    required: true,
     type: 'dropdown'
   },
   Headline: {
@@ -64,12 +68,6 @@ const ARTICLE_FIELDS = {
   }
 }
 
-let INPUT_FIELDS = [
-  'datetime',
-  'text',
-  'url'
-]
-
 let STORIES = new Variable([])
 let AUTHORS = new Variable([])
 let CONTRIBUTORS = new Variable([])
@@ -82,6 +80,7 @@ let ITEMS = {
   'Contributors': CONTRIBUTORS,
   'Keywords': KEYWORDS,
   'Site': SITES,
+  'Source': SITES,
   'Story': STORIES,
   'Syndication': SYNDICATIONS
 }
