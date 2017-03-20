@@ -2,13 +2,10 @@
 
 Tests accessing and querying the NYTimes article search API.
 """
-import sys
-sys.path.append('..')
+import os
+os.chdir('..')
 from panorama.handle_apis import nytimes_api
-import nytimesarticle as nyt
 
 api = nytimes_api()
 
 print(api.search(q='Michael Flynn'))
-
-print(articles)
